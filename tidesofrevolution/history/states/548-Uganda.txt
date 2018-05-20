@@ -7,12 +7,12 @@ state={
 		rubber=3 # was: 4
 	}
 	history={
-		owner = BCA
+		owner = BEA
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = BCA
+		add_core_of = BEA
 	}
 
 	provinces={

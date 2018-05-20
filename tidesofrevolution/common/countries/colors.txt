@@ -299,8 +299,8 @@ SLO = {
 	color_ui = rgb { 255 255 255 }
 }
 RAJ = {
-	color = rgb { 170  10  10 }
-	color_ui = rgb { 200  10  10 }
+	color = rgb { 170 0 0 }
+	color_ui = rgb { 170 0 0 }
 }
 
 CRO = {
@@ -379,8 +379,8 @@ AZR = {
 }
 
 GEO = {
-	color = rgb { 255  150  150 }
-	color_ui = rgb { 255  204  204 }
+	color = rgb { 149 21 21 }
+	color_ui = rgb { 149 21 21 }
 }
 
 ARM = {
@@ -533,6 +533,30 @@ D15 = {
 }
 # New countries
 BCA = {
-	color = rgb { 160 53 61 }
-	color_ui = rgb { 160 53 61 }
+	color = rgb { 170 0 0 }
+	color_ui = rgb { 170 0 0 }
+}
+BEA = {
+	color = rgb { 170 0 0 }
+	color_ui = rgb { 170 0 0 }
+}
+BAS = {
+	color = rgb { 170 0 0 }
+	color_ui = rgb { 170 0 0 }
+}
+ALG = {
+	color = rgb { 51 98 0 }
+	color_ui = rgb { 51 98 0 }
+}
+MOU = {
+	color = rgb { 49 104 49 }
+	color_ui = rgb { 49 104 49 }
+}
+FER = {
+	color = rgb { 103 146 103 }
+	color_ui = rgb { 103 146 103 }
+}
+GAB = {
+	color = rgb { 0 120 62 }
+	color_ui = rgb { 0 120 62 }
 }
