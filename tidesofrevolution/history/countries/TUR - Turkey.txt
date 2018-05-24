@@ -26,17 +26,20 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		jacobin_socialist = { 
-			popularity = 21
+		internationalist = { 
+			popularity = 5
 		}
-		collectivist_socialist = {
-		    popularity = 42
+		jacobin_socialist = { 
+			popularity = 19
+		}
+		collectivist = {
+		    popularity = 41
 		}
 		libertarian_socialist = {
 		    popularity = 12
 		}
 		social_democrat = {
-		    popularity = 15
+		    popularity = 13
 		}
 		social_liberal = {
 		    popularity = 9
@@ -61,7 +64,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = collectivist_socialist
+	ruling_party = collectivist
 	last_election = "1935.2.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -69,6 +72,17 @@ set_politics = {
 
 set_convoys = 20
 set_stability = 0.55
+
+create_country_leader = {
+	name = "Nâzım Hikmet"
+	desc = "POLITICS_ISMET_INÖNÜ_DESC"
+	picture = "Portrait_Turkey_Ismet_Inonu.dds"
+	expire = "1999.1.1"
+	ideology = internationalist_subtype
+	traits = {
+		#
+	}
+}
 
 create_country_leader = {
 	name = "Nâzım Hikmet"
@@ -86,7 +100,7 @@ create_country_leader = {
 	desc = "POLITICS_ISMET_INÖNÜ_DESC"
 	picture = "Portrait_Turkey_Ismet_Inonu.dds"
 	expire = "1999.1.1"
-	ideology = collectivist_socialist_subtype
+	ideology = collectivist_subtype
 	traits = {
 		#
 	}

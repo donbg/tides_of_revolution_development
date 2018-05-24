@@ -1,4 +1,4 @@
-﻿capital = 546
+﻿capital = 336
 
 OOB = "BAS_1936"
 
@@ -11,10 +11,13 @@ set_technology = {
 set_politics = {
 
 	parties = {
+		internationalist = { 
+			popularity = 0
+		}
 		jacobin_socialist = { 
 			popularity = 0
 		}
-		collectivist_socialist = {
+		collectivist = {
 		    popularity = 0
 		}
 		libertarian_socialist = {

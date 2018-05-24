@@ -50,10 +50,13 @@ set_convoys = 200
 set_politics = {
 
 	parties = {
+		internationalist = { 
+			popularity = 0
+		}
 		jacobin_socialist = { 
 			popularity = 7
 		}
-		collectivist_socialist = {
+		collectivist = {
 		    popularity = 16
 		}
 		libertarian_socialist = {
