@@ -62,7 +62,7 @@ paternal_autocrat_subtype_desc:0 "Paternal Autocracy is not a political ideology
 
 national_populist_subtype_desc:0 "Encompassing a variety of ultra-nationalist and militaristic movements, National Populism typically venerates devotion to the state, uniting the people under a strong leader and a corporate economy. Diplomatically, National Populists typically emphasize Expansionist, Hawkish, and Revanchist policies when appropriate or relevant to the given Nation. Often espousing racial politics and violent rhetoric, National Populism is vehemently opposed by most other political parties."
 
-revolutionary_nationalist_subtype_desc:0 ""
+revolutionary_nationalist_subtype_desc:0 "Revolutionary Nationalism is a catch-all term for all ideologies that promote ultranationalism, militarism and revolution against old, reactionary structures. It advocates that the nation should be centralized under a strong leadership that will guide the nation towards national rebirth. Revolutionary Nationalists oppose traditional structures like the monarchy and capitalism while also being strongly anti-communist. Beyond that the ideology is very adaptable to the nation, as some have adopted very progressive ideals while others propose more traditional roles in society. Nevertheless the one thing that unites all strands of the ideology is state supremacy over society"
 
 #Countries
 
@@ -170,12 +170,13 @@ FRA_national_populist_party_long:0 "Action Française-Intégralistes"
 FRA_revolutionary_nationalist_party:0 "MF"
 FRA_revolutionary_nationalist_party_long:0 "Mouvement Franciste"
 
+#Germany
 GER_internationalist_party:0 "Spartakusbund"
 GER_internationalist_party_long:0 "Spartakusbund"
-GER_jacobin_socialist_party:0 ""
-GER_jacobin_socialist_party_long:0 ""
-GER_collectivist_party:0 ""
-GER_collectivist_party_long:0 ""
+GER_jacobin_socialist_party:0 "KPD"
+GER_jacobin_socialist_party_long:0 "Kommunistische Partei Deutschlands"
+GER_collectivist_party:0 "SAPD"
+GER_collectivist_party_long:0 "Sozialistische Arbeiterpartei Deutschlands"
 GER_libertarian_socialist_party:0 "USPD"
 GER_libertarian_socialist_party_long:0 "Unabhängige Sozialdemokratische Partei Deutschlands"
 GER_social_democrat_party:0 "SPD"
@@ -190,14 +191,14 @@ GER_authoritarian_democrat_party:0 "DKP"
 GER_authoritarian_democrat_party_long:0 "Deutschkonservative Partei"
 GER_paternal_autocrat_party:0 "DVLP"
 GER_paternal_autocrat_party_long:0 "Deutsche Vaterlandspartei"
-GER_national_populist_party:0 "DVSP"
-GER_national_populist_party_long:0 "Deutsche Volksozialistische Partei"
-GER_revolutionary_nationalist_party:0 "DAP"
-GER_revolutionary_nationalist_party_long:0 "Deutsche Arbeiterpartei"
+GER_national_populist_party:0 "ADV"
+GER_national_populist_party_long:0 "Alldeutscher Verband"
+GER_revolutionary_nationalist_party:0 "VSAP"
+GER_revolutionary_nationalist_party_long:0 "Volksozialistische Arbeiterpartei"
 
 #Italy
-ITA_jacobin_socialist_party:0 "PRGdI"
-ITA_jacobin_socialist_party_long:0 "Partito Rivoluzionario Giacobino d’Italia"
+ITA_jacobin_socialist_party:0 "PCd'I"
+ITA_jacobin_socialist_party_long:0 "Partito Comunista d’Italia"
 ITA_collectivist_party:0 "PSI"
 ITA_collectivist_party_long:0 "Partito Socialista Italiano"
 ITA_libertarian_socialist_party:0 "PSU"

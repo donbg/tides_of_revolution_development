@@ -5,8 +5,8 @@ GER = {
 	color_ui = rgb { 138 155 116 }
 }
 ENG = {
-	color = rgb { 208 12 39 }
-	color_ui = rgb { 208 12 39 }
+	color = rgb { 185 0 0 }
+	color_ui = rgb { 185 0 0 }
 }
 SOV = {
 	color = rgb { 125 13 24 }
@@ -299,8 +299,8 @@ SLO = {
 	color_ui = rgb { 255 255 255 }
 }
 RAJ = {
-	color = rgb { 170 0 0 }
-	color_ui = rgb { 170 0 0 }
+	color = rgb { 185 0 0 }
+	color_ui = rgb { 185 0 0 }
 }
 
 CRO = {
@@ -533,16 +533,16 @@ D15 = {
 }
 # New countries
 BCA = {
-	color = rgb { 208 12 39 }
-	color_ui = rgb { 208 12 39 }
+	color = rgb { 185 0 0 }
+	color_ui = rgb { 185 0 0 }
 }
 BEA = {
-	color = rgb { 208 12 39 }
-	color_ui = rgb { 208 12 39 }
+	color = rgb { 185 0 0 }
+	color_ui = rgb { 185 0 0 }
 }
 BAS = {
-	color = rgb { 208 12 39 }
-	color_ui = rgb { 208 12 39 }
+	color = rgb { 185 0 0 }
+	color_ui = rgb { 185 0 0 }
 }
 ALG = {
 	color = rgb { 42 127 255 }

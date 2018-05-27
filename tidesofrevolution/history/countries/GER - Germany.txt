@@ -82,10 +82,10 @@ set_politics = {
 		    popularity = 0
 		}
 		authoritarian_democrat = {
-		    popularity = 100
+		    popularity = 0
 		}
 		paternal_autocrat = {
-		    popularity = 0
+		    popularity = 100
 		}
 		national_populist = {
 		    popularity = 0
@@ -95,7 +95,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -115,13 +115,12 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Adolf Hitler"
+	name = "Wilhelm II"
 	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_Germany_Adolf_Hitler.dds"
-	expire = "1965.1.1"
-	ideology = nazism
+	picture = "Portrait_Germany_Wilhelm.dds"
+	expire = "1999.1.1"
+	ideology = paternal_autocrat_subtype
 	traits = {
-		dictator
 	}
 }
 
