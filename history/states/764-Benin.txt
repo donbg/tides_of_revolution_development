@@ -1,0 +1,15 @@
+state={
+	id=764
+	name="STATE_764"
+	provinces={
+		10919 12762 12874 
+	}
+	history={
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
