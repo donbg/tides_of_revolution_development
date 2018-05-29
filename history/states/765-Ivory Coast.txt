@@ -5,6 +5,7 @@ state={
 		5013 5039 5045 5070 8008 8065 8122 10762 10803 
 	}
 	history={
+	    owner = GER
 		buildings = {
 			infrastructure = 1
 		}
