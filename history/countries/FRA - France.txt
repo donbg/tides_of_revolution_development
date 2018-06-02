@@ -47,6 +47,7 @@ set_convoys = 300
 
 create_faction = fourth_international
 add_to_faction = FRA
+add_to_faction = WAL
 
 set_politics = {
 
@@ -54,7 +55,7 @@ set_politics = {
 		internationalist = { 
 			popularity = 10
 		}
-		jacobin_socialist = { 
+		vanguardist = { 
 			popularity = 18
 		}
 		collectivist = {
@@ -114,7 +115,7 @@ create_country_leader = {
 	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
 	picture = "Portrait_France_Paul_Ramadier.dds"
 	expire = "1999.1.1"
-	ideology = jacobin_socialist_subtype
+	ideology = vanguardist_subtype
 	traits = {
 		
 	}

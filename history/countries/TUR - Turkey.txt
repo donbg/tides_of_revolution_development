@@ -29,7 +29,7 @@ set_politics = {
 		internationalist = { 
 			popularity = 5
 		}
-		jacobin_socialist = { 
+		vanguardist = { 
 			popularity = 19
 		}
 		collectivist = {
@@ -89,7 +89,7 @@ create_country_leader = {
 	desc = "POLITICS_ISMET_INÖNÜ_DESC"
 	picture = "Portrait_Turkey_Ismet_Inonu.dds"
 	expire = "1999.1.1"
-	ideology = jacobin_socialist_subtype
+	ideology = vanguardist_subtype
 	traits = {
 		#
 	}

@@ -28,9 +28,9 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	jacobin_socialist = {
+	vanguardist = {
 		types = {
-		jacobin_socialist_subtype = {}
+		vanguardist_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_VANGUARDIST_1"

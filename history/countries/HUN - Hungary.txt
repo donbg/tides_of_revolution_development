@@ -23,7 +23,7 @@ set_politics = {
 		internationalist = { 
 			popularity = 0
 		}
-		jacobin_socialist = { 
+		vanguardist = { 
 			popularity = 0
 		}
 		collectivist = {

@@ -31,7 +31,7 @@ set_politics = {
 		internationalist = { 
 			popularity = 0
 		}
-		jacobin_socialist = { 
+		vanguardist = { 
 			popularity = 0
 		}
 		collectivist = {
@@ -73,7 +73,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Carl Gustaf Emil Mannerheim"
+	name = "Carl Gustaf Mannerheim"
 	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
 	picture = "Portrait_Finland_Carl_Gustaf_Emil_Mannerheim.dds"
 	expire = "1999.1.1"
@@ -84,7 +84,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Carl Gustaf Emil Mannerheim"
+	name = "Carl Gustaf Mannerheim"
 	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
 	picture = "Portrait_Finland_Carl_Gustaf_Emil_Mannerheim.dds"
 	expire = "1999.1.1"
