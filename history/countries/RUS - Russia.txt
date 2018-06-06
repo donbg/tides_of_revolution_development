@@ -87,10 +87,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_faction = russian_axis
-add_to_faction = RUS
-
-
 add_ideas = {
 }
 

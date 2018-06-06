@@ -1,8 +1,8 @@
 #reload countrycolors
 
 GER = {
-	color = rgb { 73 73 73 }
-	color_ui = rgb { 80 90 100 }
+	color = rgb { 77 93 83 }
+	color_ui = rgb { 138 155 116 }
 }
 ENG = {
 	color = rgb { 185 0 0 }
@@ -74,8 +74,8 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 123 0 0 }
+	color_ui = rgb { 123 0 0 }
 }
 GRE = {
 	color = rgb { 93 181 227 }
@@ -118,7 +118,7 @@ AFG = {
 	color_ui = rgb { 83 208 217 }
 }
 ARG = {
-	color = rgb { 145 157 236 }
+	color = rgb { 100 182 240 }
 	color_ui = rgb { 189 204 255 }
 }
 AST = {
@@ -142,15 +142,15 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
-	color_ui = hsv { 0.18 0.3 0.9 }
+	color = rgb { 70 130 180 }
+	color_ui = rgb { 70 130 180 }
 }
 CHL = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
+	color = rgb { 206  118  30 }
+	color_ui = rgb { 206  118  30}
 }
 COL = {
-	color = rgb { 222 187 91 }
+	color = rgb { 233 191 8 }
 	color_ui = rgb { 255 243 118 }
 }
 COS = {
@@ -222,8 +222,8 @@ PRU = {
 	color_ui = rgb { 151  39  39 }
 }
 SAF = {
-	color = rgb { 255 133 0 }
-	color_ui = rgb { 255 133 0 }
+	color = rgb { 255 126 0 }
+	color_ui = rgb { 255 126 0 }
 }
 SAU = {
 	color = rgb { 170 146 70 }

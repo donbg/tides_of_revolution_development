@@ -35,6 +35,8 @@
  PRC_mao_faction:0 "Mutual Assistance Bloc"
 #NEW
 freipakt:0 "Freipakt"
-german_axis:0 "Reichspakt"
-russian_axis:0 "Anti-International Axis"
+german_axis:0 "Achsenpakt"
+axis:0 "Axis"
 fourth_international:0 "Internationale"
+commonwealth:0 "Commonwealth of Nations"
+austrian_faction:0 "Donaubund"

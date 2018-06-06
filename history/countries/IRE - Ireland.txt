@@ -11,6 +11,8 @@ set_technology = {
 
 set_convoys = 10
 
+set_cosmetic_tag = IRE_UK #Dominion of Ireland
+
 set_politics = {
 
 	parties = {

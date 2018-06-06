@@ -107,6 +107,11 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.20
 	}
+	set_autonomy = {
+		target = ISR
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.20
+	}
 
 	else = {
 		puppet = MAL
@@ -116,6 +121,7 @@ if = {
 		puppet = BAS
 		puppet = RHO
 		puppet = IRE
+		puppet = ISR
 	}
 }
 
@@ -126,7 +132,7 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-create_faction = freipakt
+create_faction = commonwealth
 add_to_faction = ENG
 add_to_faction = CAN
 add_to_faction = AST
@@ -138,35 +144,34 @@ add_to_faction = BCA
 add_to_faction = BEA
 add_to_faction = RHO
 add_to_faction = BAS
-add_to_faction = AUS
-add_to_faction = HUN
+add_to_faction = ISR
 
 set_politics = {
 
 	parties = {
 		internationalist = { 
-			popularity = 0
+			popularity = 1
 		}
 		vanguardist = { 
 			popularity = 0
 		}
 		collectivist = {
-		    popularity = 0
+		    popularity = 2
 		}
 		libertarian_socialist = {
-		    popularity = 0
+		    popularity = 4
 		}
 		social_democrat = {
-		    popularity = 0
+		    popularity = 21
 		}
 		social_liberal = {
-		    popularity = 0
+		    popularity = 13
 		}
 		market_liberal = {
-		    popularity = 0
+		    popularity = 31
 		}
 		social_conservative = {
-		    popularity = 100
+		    popularity = 26
 		}
 		authoritarian_democrat = {
 		    popularity = 0
@@ -175,14 +180,14 @@ set_politics = {
 		    popularity = 0
 		}
 		national_populist = {
-		    popularity = 0
+		    popularity = 2
 		}
 		revolutionary_nationalist = {
 		    popularity = 0
 		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = market_liberal
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no

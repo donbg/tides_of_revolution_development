@@ -65,6 +65,9 @@ set_politics = {
 
 set_stability = 0.50
 
+create_faction = austrian_faction
+add_to_faction = AUS
+
 create_country_leader = {
 	name = "Karl I"
 	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"

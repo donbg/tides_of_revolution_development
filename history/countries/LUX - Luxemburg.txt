@@ -1,0 +1,73 @@
+﻿capital = 8
+
+oob = "LUX_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_support = 1		
+	tech_engineers = 1
+	early_fighter = 1
+}
+set_war_support = 0.1
+set_stability = 0.8
+
+set_politics = {
+
+	parties = {
+		internationalist = { 
+			popularity = 4
+		}
+		vanguardist = { 
+			popularity = 1
+		}
+		collectivist = {
+		    popularity = 5
+		}
+		libertarian_socialist = {
+		    popularity = 3
+		}
+		social_democrat = {
+		    popularity = 12
+		}
+		social_liberal = {
+		    popularity = 10
+		}
+		market_liberal = {
+		    popularity = 13
+		}
+		social_conservative = {
+		    popularity = 17
+		}
+		authoritarian_democrat = {
+		    popularity = 29
+		}
+		paternal_autocrat = {
+		    popularity = 0
+		}
+		national_populist = {
+		    popularity = 4
+		}
+		revolutionary_nationalist = {
+		    popularity = 2
+		}
+	}
+	
+	ruling_party = authoritarian_democrat
+	last_election = "1934.6.3"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Marie-Adélaïde"
+	desc = "POLITICS_JOSEPH_BECH_DESC"
+	picture = "Portrait_HOL_Marie_Adelaide.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}

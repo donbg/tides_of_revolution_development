@@ -69,10 +69,10 @@ set_politics = {
 		    popularity = 6
 		}
 		market_liberal = {
-		    popularity = 13
+		    popularity = 10
 		}
 		social_conservative = {
-		    popularity = 10
+		    popularity = 13
 		}
 		authoritarian_democrat = {
 		    popularity = 2
@@ -95,9 +95,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Vittorio Emanuele III"
+	name = "Ivanoe Bonomi"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "Portrait_Italy_Vittorio_Emmanuele.dds"
+	picture = "Portrait_Italy_Ivanoe_Bonomi.dds"
 	expire = "1999.1.1"
 	ideology = social_democrat_subtype
 	traits = {
