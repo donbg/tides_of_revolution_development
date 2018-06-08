@@ -1,0 +1,212 @@
+bookmarks = {
+	bookmark = {
+		name = "TIDES_OF_REVOLUTION_NAME"
+		desc = "TIDES_OF_REVOLUTION_DESC"
+		date = 1936.1.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "ENG"
+		default = yes
+
+		"FRA"={
+			history = "USA_FUHRERREICH_DESC"
+			ideology = market_liberal
+			ideas = {
+				USA_failed_offensive
+				USA_great_depression
+				USA_malnourished_populace
+			}
+			focuses = {
+				USA_foriegn_policy
+				USA_1936_election
+				USA_treading_water
+			}
+		}
+
+
+		"ENG"={
+			history = "SOV_TIDES_OF_REVOLUTION_DESC"
+			ideology = libertarian_socialist
+			ideas = {
+				SOV_Bread
+				SOV_Peace
+				SOV_Labour
+			}
+			focuses = {
+
+			}
+		}
+
+		"AUS"={
+			history = "GER_TIDES_OF_REVOLUTION_DESC"
+			ideology = valkist
+			ideas = {
+				GER_nation_reborn
+				GER_naval_treaty
+				GER_army_treaty
+			}
+			focuses = {
+				GER_pangerman
+				GER_spark_lits
+				GER_invade_benelux
+			}
+		}
+
+		"USA"={
+			history = "FRA_TIDES_OF_REVOLUTION_DESC"
+			ideology = social_conservative
+			ideas = {
+				FRA_great_war_victors
+				FRA_our_place_in_the_sun
+				FRA_british_tariffs
+			}
+			focuses = {
+				FRA_the_army_reformed
+				FRA_bulwark_of_the_status_quo
+				FRA_defend_the_republique
+			}
+		}
+
+		"ITA"={
+			history = "ITA_TIDES_OF_REVOLUTION_DESC"
+			ideology = market_liberal
+			ideas = {
+				ITA_italia_irredenta
+				ITA_communist_threat
+				ITA_colonial_administration
+			}
+			focuses = {
+				ITA_parliamentary_election
+				ITA_military_parliament
+				ITA_response_wednesday
+			}
+		}
+
+		"GER"={
+			history = "ENG_TIDES_OF_REVOLUTION_DESC"
+			ideology = social_conservative
+			ideas = {
+				ENG_col_unrest
+				ENG_irb
+				ENG_war_fatigue
+			}
+			focuses = {
+				ENG_imp_fed
+				ENG_absolutism
+				ENG_dip_usa
+			}
+		}
+		"RUS"={
+			history = "JAP_TIDES_OF_REVOLUTION_DESC"
+			ideology = market_liberal
+			ideas = {
+				JAP_cultural_upheaval
+				JAP_Romanov_exiles
+			}
+			focuses = {
+
+			}
+}
+		#Others
+
+		"---"={
+			history = "OTHER_TIDES_OF_REVOLUTION_DESC"
+		}
+
+		# minors
+
+		"ARG"={
+			minor = yes
+			history = "ARG_TIDES_OF_REVOLUTION_DESC"
+			ideology = social_liberal
+			ideas = {
+				ARG_memories_of_the_chaco_war
+				ARG_labour_strikes
+				ARG_british_companies
+			}
+			focuses = {
+				ARG_sunrise_in_argentina
+				ARG_sunrise_crash
+				ARG_form_federation_of_la_plata
+			}
+		}
+
+		"CAN"={
+			minor = yes
+			history = "CAN_TIDES_OF_REVOLUTION_DESC"
+			ideology = social_conservative
+			ideas = {
+				CAN_red_tories
+				CAN_canadian_corps
+				CAN_anglo_french_tension
+			}
+			focuses = {
+				CAN_black_wednesday_initiatives
+				CAN_elections_1938
+				CAN_curries_firepower_primacy
+			}
+		}
+		
+		"MAN"={
+			minor = yes
+			history = "MAN_TIDES_OF_REVOLUTION_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				part_of_beiyang_council
+			}
+			focuses = {
+				
+			}
+		}
+
+		"TUR"={
+			minor = yes
+			history = "TUR_TIDES_OF_REVOLUTION_DESC"
+			ideology = social_liberal
+			ideas = {
+				TUR_sick_man_of_europe
+				TUR_opda_idea
+			}
+			focuses = {
+				TUR_transition_to_a_constitutional_monarchy
+				TUR_emergency_session
+				TUR_the_turkish_constitution
+			}
+		}
+
+		"MEX"={
+			minor = yes
+			history = "MEX_TIDES_OF_REVOLUTION_DESC"
+			ideology = national_populist
+			ideas = {
+				MEX_nationalist_strife
+				MEX_militias
+				MEX_basta
+			}
+			focuses = {
+				MEX_siempre_leales
+				MEX_final_election
+				MEX_we_will_reach_new_york
+			}
+		}
+
+		"POL"={
+			minor = yes
+			history = "POL_TIDES_OF_REVOLUTION_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				POL_Lithuanian_unrest
+				POL_poland_ab_idea
+				POL_advisors_council
+			}
+			focuses = {
+				POL_great_sitting
+				POL_deal_with_the_devil
+				POL_the_incorporation
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
