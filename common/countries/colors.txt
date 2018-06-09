@@ -557,8 +557,8 @@ FER = {
 	color_ui = rgb { 255 255 255 }
 }
 GAB = {
-	color = rgb { 0 120 62 }
-	color_ui = rgb { 0 120 62 }
+	color = rgb { 87 164 87 }
+	color_ui = rgb { 87 164 87 }
 }
 MOR = {
 	color = rgb { 163 91 91 }
@@ -573,8 +573,8 @@ RHO = {
 	color_ui = rgb { 185 0 0 }
 }
 MLI = {
-	color = rgb { 20 181 58 }
-	color_ui = rgb { 20 181 58 }
+	color = rgb { 255 255 185 }
+	color_ui = rgb { 255 255 185 }
 }
 FLA = {
 	color = rgb { 213 191 28 }
@@ -585,6 +585,10 @@ WAL = {
 	color_ui = rgb { 255 0 0 }
 }
 CDI = {
-	color = rgb { 247 127 0  }
-	color_ui = rgb { 247 127 0 }
+	color = rgb { 247 127 10 }
+	color_ui = rgb { 247 127 10 }
+}
+BEI = {
+	color = rgb { 189 113 33 }
+	color_ui = rgb { 189 113 33 }
 }

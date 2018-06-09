@@ -65,10 +65,10 @@ set_politics = {
 		    popularity = 0
 		}
 		authoritarian_democrat = {
-		    popularity = 100
+		    popularity = 0
 		}
 		paternal_autocrat = {
-		    popularity = 0
+		    popularity = 100
 		}
 		national_populist = {
 		    popularity = 0
@@ -78,7 +78,7 @@ set_politics = {
 		}
 	}
 
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -96,9 +96,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Pavlo Skoropadskyi"
+	name = "Pavlo Skoropadsky"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "Portrait_Ukraine_Pavlo_Skoropadsky.dds"
 	expire = "1999.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {

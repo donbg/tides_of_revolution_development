@@ -3,4 +3,4 @@
 graphical_culture = african_gfx
 graphical_culture_2d = african_european_2d
 
-color = { 247 127 0 }
+color = { 247 127 10 }
