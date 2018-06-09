@@ -1,6 +1,6 @@
-﻿capital = 232
+capital = 272
 
-OOB = "MOU_1936"
+OOB = "BAS_1936"
 
 set_technology = {
 	infantry_weapons = 1
@@ -12,7 +12,7 @@ set_politics = {
 
 	parties = {
 		internationalist = { 
-			popularity = 10
+			popularity = 0
 		}
 		vanguardist = { 
 			popularity = 0
@@ -21,10 +21,10 @@ set_politics = {
 		    popularity = 0
 		}
 		libertarian_socialist = {
-		    popularity = 0
+		    popularity = 5
 		}
 		social_democrat = {
-		    popularity = 5
+		    popularity = 0
 		}
 		social_liberal = {
 		    popularity = 0
@@ -33,23 +33,23 @@ set_politics = {
 		    popularity = 0
 		}
 		social_conservative = {
-		    popularity = 0
-		}
-		authoritarian_democrat = {
-		    popularity = 0
-		}
-		paternal_autocrat = {
-		    popularity = 20
-		}
-		national_populist = {
 		    popularity = 5
 		}
+		authoritarian_democrat = {
+		    popularity = 35
+		}
+		paternal_autocrat = {
+		    popularity = 50
+		}
+		national_populist = {
+		    popularity = 2
+		}
 		revolutionary_nationalist = {
-		    popularity = 60
+		    popularity = 3
 		}
 	}
 	
-	ruling_party = revolutionary_nationalist
+	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -58,23 +58,13 @@ set_politics = {
 set_convoys = 5
 
 create_country_leader = {
-	name = "Tapa Tchermoeff"
+	name = "maliboi"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Mountain_Republic_Tapa_Tchermoeff.dds"
+	picture = "Portrait_Rhodesia_Arthur_Harris.dds"
 	expire = "1999.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = social_democrat_subtype
 	traits = {
 		#
 	}
 }
 
-create_field_marshal = {
-	name = "Tapa Tchermoeff"
-	picture = "Portrait_Mountain_Republic_Tapa_Tchermoeff.dds"
-	traits = { defensive_doctrine old_guard }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
