@@ -126,8 +126,4 @@ MLI = "countries/Mali.txt"
 FLA = "countries/Flanders.txt"
 WAL = "countries/Wallonia.txt"
 CDI = "countries/Ivory Coast.txt"
-<<<<<<< HEAD
 BEI = "countries/Beiyang.txt"
-=======
-KHA = "countries/Turkic Khanate.txt"
->>>>>>> 8625c134acf846dbefd687a8db5e7f61b2c3a88c
