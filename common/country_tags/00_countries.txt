@@ -125,9 +125,5 @@ RHO = "countries/Rhodesia.txt"
 MLI = "countries/Mali.txt"
 FLA = "countries/Flanders.txt"
 WAL = "countries/Wallonia.txt"
-<<<<<<< HEAD
 CDI = "countries/Ivory Coast.txt"
 BEI = "countries/Beiyang.txt"
-=======
-CDI = "countries/Ivory Coast.txt"
->>>>>>> parent of 8625c13... Russia set up
