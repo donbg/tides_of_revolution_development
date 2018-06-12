@@ -1,0 +1,31 @@
+ideas = {
+    country = {
+	    MEX_state_controlled_education = {
+		    picture = generic_intel_bonus
+			modifier = {
+			    paternal_autocrat_drift = 0.1
+				political_power_gain = 0.5
+			}
+		}
+		
+		MEX_land_reforms = {
+		    picture = idea_generic_central_management
+			modifier = {
+			    global_building_slots_factor = 0.15
+				consumer_goods_factor = 0.1
+			}
+		}
+		
+		MEX_goldshirts = {
+		    picture = idea_chi_war_of_resistance2
+			modifier = {
+			    conscription = 0.025
+				army_org = -10
+				political_power_gain = -0.5
+			}
+		}
+	}
+}
+				
+		
+		

@@ -176,16 +176,16 @@ bookmarks = {
 		"MEX"={
 			minor = yes
 			history = "MEX_TIDES_OF_REVOLUTION_DESC"
-			ideology = national_populist
+			ideology = paternal_autocrat
 			ideas = {
-				MEX_nationalist_strife
-				MEX_militias
-				MEX_basta
+				MEX_state_controlled_education
+				MEX_land_reforms
+				MEX_goldshirts
 			}
 			focuses = {
-				MEX_siempre_leales
-				MEX_final_election
-				MEX_we_will_reach_new_york
+			    rallythemaximato
+				rallythegoldshirts 
+				proclaimstateatheism
 			}
 		}
 

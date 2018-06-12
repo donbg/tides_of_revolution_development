@@ -1,0 +1,88 @@
+focus_tree = {
+id = 'mexico_focus'
+country = {
+factor=0
+modifier = {
+add = 10
+tag = MEX
+}
+}
+default = no
+#Custom focuses start here
+#Focus for Lay the groundwork 
+		focus = { 
+		id = laythegroundwork 
+		icon = GFX_goal_generic_position_armies 
+		ai_will_do = { factor = 0} 
+ x =2 
+ y =1 
+ mutually_exclusive = { } 
+ prerequisite = { } 
+ cost = 5  
+  available_if_capitulated = yes  
+ completion_reward = { 
+ add_political_power = 50 
+  
+ } 
+ }#Focus for Rally the Maximato 
+		focus = { 
+		id = rallythemaximato 
+		icon = GFX_goal_tripartite_pact 
+		ai_will_do = { factor = 0} 
+ x =1 
+ y =2 
+ mutually_exclusive = { } 
+ prerequisite = { focus = laythegroundwork} 
+ cost = 5  
+  available_if_capitulated = yes  
+ completion_reward = { 
+ add_political_power = 50	 
+ 	 
+  
+ } 
+ }#Focus for Rally the Goldshirts 
+		focus = { 
+		id = rallythegoldshirts 
+		icon = GFX_goal_generic_political_pressure 
+		ai_will_do = { factor = 0} 
+ x =3 
+ y =2 
+ mutually_exclusive = { } 
+ prerequisite = { focus = laythegroundwork} 
+ cost = 5  
+  available_if_capitulated = yes  
+ completion_reward = { 
+ add_manpower = 10000 
+ } 
+ }#Focus for Finish the preparation 
+		focus = { 
+		id = finishthepreparation 
+		icon = GFX_goal_generic_demand_territory 
+		ai_will_do = { factor = 0} 
+ x =2 
+ y =3 
+ mutually_exclusive = { } 
+ prerequisite = { focus = rallythegoldshirts} 
+  prerequisite = { focus =rallythemaximato} 
+ cost = 5  
+  available_if_capitulated = yes  
+ completion_reward = { 
+ add_political_power = 50	 
+ 	 
+  
+ } 
+ }#Focus for Proclaim State Atheism 
+		focus = { 
+		id = proclaimstateatheism 
+		icon = GFX_goal_generic_forceful_treaty 
+		ai_will_do = { factor = 0} 
+ x =2 
+ y =4 
+ mutually_exclusive = { } 
+ prerequisite = { focus = finishthepreparation} 
+ cost = 1  
+  available_if_capitulated = yes  
+  completion_reward = {
+  #here will be the civil war event 
+ }#End of focuses 
+}
