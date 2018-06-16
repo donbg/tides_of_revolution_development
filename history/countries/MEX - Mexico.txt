@@ -63,7 +63,7 @@ set_politics = {
 set_stability = 0.75
 
 create_country_leader = {
-	name = "Plutacro Elías Calles"
+	name = "Plutarco Elías Calles"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
 	picture = "Portrait_Mexico_Plutarco_Calles.dds"
 	expire = "1965.1.1"

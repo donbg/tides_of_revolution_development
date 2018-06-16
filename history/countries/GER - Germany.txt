@@ -67,35 +67,35 @@ set_politics = {
 		    popularity = 0
 		}
 		libertarian_socialist = {
-		    popularity = 0
+		    popularity = 2
 		}
 		social_democrat = {
-		    popularity = 0
+		    popularity = 23
 		}
 		social_liberal = {
-		    popularity = 0
+		    popularity = 5
 		}
 		market_liberal = {
-		    popularity = 0
+		    popularity = 7
 		}
 		social_conservative = {
-		    popularity = 0
+		    popularity = 11
 		}
 		authoritarian_democrat = {
-		    popularity = 0
+		    popularity = 23
 		}
 		paternal_autocrat = {
-		    popularity = 100
+		    popularity = 0
 		}
 		national_populist = {
-		    popularity = 0
+		    popularity = 18
 		}
 		revolutionary_nationalist = {
-		    popularity = 0
+		    popularity = 11
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -119,10 +119,37 @@ create_country_leader = {
 	desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = "Portrait_Germany_Wilhelm.dds"
 	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Wilhelm II"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "Portrait_Germany_Wilhelm.dds"
+	expire = "1999.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 create_country_leader = {
 	name = "Konrad Adenauer"

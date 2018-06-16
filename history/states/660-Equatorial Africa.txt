@@ -9,14 +9,14 @@ state={
 		rubber=3 # was: 4
 	}
 	history={
-		owner = BCA
+		owner = EQA
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = BCA
+		add_core_of = EQA
 	}
 
 	provinces={
-		1883 1974 1993 2081 3165 3181 5084 7919 7963 8078 9152 11108 11194 12719 12830 1473 4978 4897 3123
+		1883 1974 1993 2081 3165 3181 5084 7919 7963 8078 9152 11108 11194 12719 12830 1473 4978 4897 3123 13138
 	}
 }

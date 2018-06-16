@@ -142,8 +142,8 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = rgb { 70 130 180 }
-	color_ui = rgb { 70 130 180 }
+	color = rgb { 255 244 190 }
+	color_ui = rgb { 255 244 190 }
 }
 CHL = {
 	color = rgb { 206  118  30 }
@@ -319,8 +319,8 @@ GXC = {
 }
 
 SHX = {
-	color = rgb { 82  2  15 }
-	color_ui = rgb { 101  30  41 }
+	color = rgb { 45 117 45 }
+	color_ui = rgb { 45 117 45 }
 }
 
 XSM = {
@@ -423,8 +423,8 @@ BLR = {
 	color_ui = rgb { 72 167 86 }
 }
 MAN = {
-	color = rgb { 255 120 71 }
-	color_ui = rgb { 255 120 71 }
+	color = rgb { 189 113 33 }
+	color_ui = rgb { 189 113 33 }
 }
 ANG = {
 	color = rgb { 37 140 61 }
@@ -532,7 +532,7 @@ D15 = {
 	color_ui = rgb { 252 182 112 }
 }
 # New countries
-BCA = {
+BWA = {
 	color = rgb { 185 0 0 }
 	color_ui = rgb { 185 0 0 }
 }
@@ -556,7 +556,7 @@ FER = {
 	color = rgb { 255 255 255 }
 	color_ui = rgb { 255 255 255 }
 }
-GAB = {
+EQA = {
 	color = rgb { 87 164 87 }
 	color_ui = rgb { 87 164 87 }
 }
@@ -589,6 +589,10 @@ CDI = {
 	color_ui = rgb { 247 127 10 }
 }
 BEI = {
-	color = rgb { 189 113 33 }
-	color_ui = rgb { 189 113 33 }
+	color = rgb { 70 130 180 }
+	color_ui = rgb { 70 130 180 }
+}
+SCH = {
+	color = rgb { 181 133 52 }
+	color_ui = rgb { 181 133 52 }
 }

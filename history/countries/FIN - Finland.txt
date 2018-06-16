@@ -44,10 +44,10 @@ set_politics = {
 		    popularity = 21
 		}
 		social_liberal = {
-		    popularity = 12
+		    popularity = 9
 		}
 		market_liberal = {
-		    popularity = 9
+		    popularity = 12
 		}
 		social_conservative = {
 		    popularity = 25

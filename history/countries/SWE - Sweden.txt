@@ -43,34 +43,34 @@ set_politics = {
 			popularity = 0
 		}
 		collectivist = {
-		    popularity = 0
+		    popularity = 10
 		}
 		libertarian_socialist = {
-		    popularity = 0
+		    popularity = 3
 		}
 		social_democrat = {
-		    popularity = 0
+		    popularity = 27
 		}
 		social_liberal = {
-		    popularity = 0
+		    popularity = 6
 		}
 		market_liberal = {
-		    popularity = 0
+		    popularity = 19
 		}
 		social_conservative = {
-		    popularity = 100
+		    popularity = 28
 		}
 		authoritarian_democrat = {
-		    popularity = 0
+		    popularity = 3
 		}
 		paternal_autocrat = {
-		    popularity = 0
+		    popularity = 1
 		}
 		national_populist = {
-		    popularity = 0
+		    popularity = 1
 		}
 		revolutionary_nationalist = {
-		    popularity = 0
+		    popularity = 2
 		}
 	}
 	

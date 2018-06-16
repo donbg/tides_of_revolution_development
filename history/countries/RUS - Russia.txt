@@ -91,7 +91,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Viktor Baidalakov"
+	name = "Viktor Baydalakov"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Russia_Viktor_Mikhailovich.dds"
 	expire = "1999.3.1"

@@ -66,7 +66,7 @@ puppet = ISR
 puppet = IRE
 
 #Colonies
-puppet = BCA
+puppet = BWA
 puppet = BEA
 puppet = BAS
 puppet = RHO
@@ -79,7 +79,7 @@ add_to_faction = NZL
 add_to_faction = RAJ
 add_to_faction = IRE
 add_to_faction = SAF
-add_to_faction = BCA
+add_to_faction = BWA
 add_to_faction = BEA
 add_to_faction = RHO
 add_to_faction = BAS

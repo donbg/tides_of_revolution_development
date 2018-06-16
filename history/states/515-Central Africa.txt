@@ -6,15 +6,15 @@ state={
 	impassable = yes
 
 	history={
-		owner = BCA
+		owner = EQA
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = BCA
+		add_core_of = EQA
 	}
 
 	provinces={
-		1956 4902 4913 5136 7939 8028 8128 10758 10780 10805 10893 10917 13138 
+		1956 4913 5136 10893 4902
 	}
 	manpower=1482744
 	buildings_max_level_factor=1.000
