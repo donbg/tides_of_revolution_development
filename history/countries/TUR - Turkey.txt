@@ -6,6 +6,11 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	TUR_Osman_Family_In_Exile
+	TUR_Transition_From_Agarianism
+	TUR_Political_Divide
+	TUR_Kurdish_Nationalism
+	
 }
 
 set_technology = {
