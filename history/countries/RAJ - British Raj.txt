@@ -70,7 +70,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Sir Ganga Singh"
+	name = "Ganga Singh"
 	desc = "POLITICS_LORD_LINLITHGOW_DESC"
 	picture = "Portrait_India_Ganga_Singh.dds"
 	expire = "1999.1.1"

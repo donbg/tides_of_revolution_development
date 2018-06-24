@@ -58,7 +58,7 @@ set_politics = {
 create_country_leader = {
 	name = "Hashim al-Atassi"
 	desc = ""
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_navy_1.dds"
+	picture = "Portrait_SYR_Hashim_al_Atassi.tga"
 	ideology = social_liberal_subtype
 	traits = {
 		#

@@ -1,4 +1,4 @@
-﻿capital = 49
+﻿capital = 341
 
 oob = "TUR_1936"
 
@@ -27,19 +27,19 @@ set_politics = {
 
 	parties = {
 		internationalist = { 
-			popularity = 5
+			popularity = 16
 		}
 		vanguardist = { 
-			popularity = 19
+			popularity = 4
 		}
 		collectivist = {
-		    popularity = 41
+		    popularity = 32
 		}
 		libertarian_socialist = {
-		    popularity = 12
+		    popularity = 8
 		}
 		social_democrat = {
-		    popularity = 13
+		    popularity = 15
 		}
 		social_liberal = {
 		    popularity = 9
@@ -48,16 +48,16 @@ set_politics = {
 		    popularity = 3
 		}
 		social_conservative = {
-		    popularity = 0
+		    popularity = 15
 		}
 		authoritarian_democrat = {
-		    popularity = 8
+		    popularity = 6
 		}
 		paternal_autocrat = {
-		    popularity = 0
+		    popularity = 1
 		}
 		national_populist = {
-		    popularity = 0
+		    popularity = 1
 		}
 		revolutionary_nationalist = {
 		    popularity = 0
@@ -76,7 +76,7 @@ set_stability = 0.55
 create_country_leader = {
 	name = "Nâzım Hikmet"
 	desc = "POLITICS_ISMET_INÖNÜ_DESC"
-	picture = "Portrait_Turkey_Ismet_Inonu.dds"
+	picture = "Portrait_Turkey_Nazim_Hikmet.tga"
 	expire = "1999.1.1"
 	ideology = internationalist_subtype
 	traits = {
@@ -87,7 +87,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Nâzım Hikmet"
 	desc = "POLITICS_ISMET_INÖNÜ_DESC"
-	picture = "Portrait_Turkey_Ismet_Inonu.dds"
+	picture = "Portrait_Turkey_Nazim_Hikmet.tga"
 	expire = "1999.1.1"
 	ideology = vanguardist_subtype
 	traits = {
@@ -98,7 +98,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Nâzım Hikmet"
 	desc = "POLITICS_ISMET_INÖNÜ_DESC"
-	picture = "Portrait_Turkey_Ismet_Inonu.dds"
+	picture = "Portrait_Turkey_Nazim_Hikmet.tga"
 	expire = "1999.1.1"
 	ideology = collectivist_subtype
 	traits = {
@@ -109,7 +109,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Nâzım Hikmet"
 	desc = "POLITICS_ISMET_INÖNÜ_DESC"
-	picture = "Portrait_Turkey_Ismet_Inonu.dds"
+	picture = "Portrait_Turkey_Nazim_Hikmet.tga"
 	expire = "1999.1.1"
 	ideology = libertarian_socialist_subtype
 	traits = {
@@ -117,11 +117,19 @@ create_country_leader = {
 	}
 }
 
+
+
+
+
+
+
+
+
 # Atatürk still alive in '36, however, Inönü was already Prime Minister (but not President)
 create_country_leader = {
 	name = "Ismet Inönü"
 	desc = "POLITICS_ISMET_INÖNÜ_DESC"
-	picture = "Portrait_Turkey_Ismet_Inonu.dds"
+	picture = "Portrait_Turkey_Nazim_Hikmet.tga"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {

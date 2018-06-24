@@ -59,7 +59,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Sir John Brodrick"
+	name = "John Brodrick"
 	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
 	picture = "Portrait_Ireland_John_Brodrick.dds"
 	expire = "1999.1.1"
@@ -70,7 +70,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sir John Brodrick"
+	name = "John Brodrick"
 	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
 	picture = "Portrait_Ireland_John_Brodrick.dds"
 	expire = "1999.1.1"
@@ -81,7 +81,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sir John Brodrick"
+	name = "John Brodrick"
 	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
 	picture = "Portrait_Ireland_John_Brodrick.dds"
 	expire = "1999.1.1"
@@ -92,7 +92,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sir John Brodrick"
+	name = "John Brodrick"
 	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
 	picture = "Portrait_Ireland_John_Brodrick.dds"
 	expire = "1999.1.1"
@@ -103,7 +103,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sir John Brodrick"
+	name = "John Brodrick"
 	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
 	picture = "Portrait_Ireland_John_Brodrick.dds"
 	expire = "1999.1.1"

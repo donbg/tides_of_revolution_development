@@ -58,9 +58,9 @@ set_politics = {
 set_convoys = 5
 
 create_country_leader = {
-	name = "idk some east asian boi"
+	name = "Cecil Clementi"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Albania_Amadeo_Savoia_Aosta.dds"
+	picture = "Portrait_LEC_Cecil_Clementi.tga"
 	expire = "1999.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
