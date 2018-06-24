@@ -1,0 +1,45 @@
+### Turkey ideas
+
+ideas = {
+##############
+# Country ideas
+##############
+	country = {
+		
+		### New Ideas
+			
+					TUR_Osman_Family_In_Exile = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TUR_Osman_Family_In_Exile"}
+		picture = JAP_Shitty_Tracks
+		modifier = {
+		war_support_factor = -0.05
+		}
+	}
+	
+					TUR_Transition_From_Agarianism = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TUR_Transition_From_Agarianism"}
+		picture = JAP_Shitty_Tracks
+		modifier = {
+		consumer_goods_factor = 0.05
+		production_speed_buildings_factor = 0.05
+		}
+	}
+	
+					TUR_Political_Divide = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TUR_Political_Divide"}
+		picture = JAP_Shitty_Tracks
+		modifier = {
+		stability_factor = -0.10
+		political_power_gain = -0.15
+		}
+	}
+	
+					TUR_Kurdish_Nationalism = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TUR_Kurdish_Nationalism"}
+		picture = JAP_Shitty_Tracks
+		modifier = {
+		political_power_gain = -0.05
+		}
+	}
+	
+	}
