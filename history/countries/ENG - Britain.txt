@@ -70,6 +70,7 @@ puppet = BWA
 puppet = BEA
 puppet = BAS
 puppet = RHO
+puppet = SUD
 
 create_faction = commonwealth
 add_to_faction = ENG
@@ -83,6 +84,7 @@ add_to_faction = BWA
 add_to_faction = BEA
 add_to_faction = RHO
 add_to_faction = BAS
+add_to_faction = SUD
 add_to_faction = ISR
 
 set_politics = {

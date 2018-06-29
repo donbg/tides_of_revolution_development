@@ -18,31 +18,31 @@ set_politics = {
 
 	parties = {
 		internationalist = { 
-			popularity = 4
+			popularity = 0
 		}
 		vanguardist = { 
-			popularity = 1
+			popularity = 0
 		}
 		collectivist = {
-		    popularity = 5
+		    popularity = 0
 		}
 		libertarian_socialist = {
 		    popularity = 3
 		}
 		social_democrat = {
-		    popularity = 12
+		    popularity = 15
 		}
 		social_liberal = {
-		    popularity = 10
+		    popularity = 11
 		}
 		market_liberal = {
 		    popularity = 13
 		}
 		social_conservative = {
-		    popularity = 17
+		    popularity = 18
 		}
 		authoritarian_democrat = {
-		    popularity = 29
+		    popularity = 34
 		}
 		paternal_autocrat = {
 		    popularity = 0

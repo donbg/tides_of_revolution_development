@@ -596,3 +596,11 @@ SCH = {
 	color = rgb { 181 133 52 }
 	color_ui = rgb { 181 133 52 }
 }
+SUD = {
+	color = rgb { 140 30 35 }
+	color_ui = rgb { 160 15 15 }
+}
+TRK = {
+	color = rgb { 100 150 105 }
+	color_ui = rgb { 100 150 105 }
+}

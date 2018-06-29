@@ -69,7 +69,7 @@ set_convoys = 80
 set_stability = 0.75
 
 create_country_leader = {
-	name = "Albert I"
+	name = "Albert"
 	desc = "POLITICS_HUBERT_PIERLOT_DESC"
 	picture = "Portrait_Flanders_Albert_I.dds"
 	expire = "1999.1.1"

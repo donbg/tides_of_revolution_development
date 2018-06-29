@@ -65,7 +65,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Ferdinand I"
+	name = "Ferdinand"
 	desc = "POLITICS_BORIS_III_DESC"
 	picture = "Portrait_Bulgaria_Tsar_Ferdinand.tga"
 	expire = "1965.1.1"

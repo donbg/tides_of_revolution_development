@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = ROM
+		owner = UKR
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2

@@ -73,7 +73,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Witold I"
+	name = "Witold Leon Czartoryski"
 	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
 	picture = "POL_Witold_Leon_Czartoryski.dds"
 	expire = "1965.1.1"

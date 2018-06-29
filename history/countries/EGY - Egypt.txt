@@ -58,7 +58,7 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Fuad I"
+	name = "Fu'ad al-Awwal"
 	desc = ""
 	picture = "Portrait_Egypt_Fuad_I.tga"
 	ideology = authoritarian_democrat_subtype

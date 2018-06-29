@@ -1,4 +1,4 @@
-﻿capital = 551
+﻿capital = 546
 
 OOB = "BEA_1936"
 
@@ -58,9 +58,9 @@ set_politics = {
 set_convoys = 5
 
 create_country_leader = {
-	name = "Kitchener"
+	name = "Robert Brooke-Popham"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Albania_Amadeo_Savoia_Aosta.dds"
+	picture = "Portrait_East_Africa_Robert_Brooke_Popham.tga"
 	expire = "1999.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
