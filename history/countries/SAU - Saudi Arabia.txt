@@ -1,12 +1,14 @@
-﻿capital = 558
+﻿capital = 292
 
-OOB = "BWA_1936"
+oob = "SAU_1936"
 
+# Starting tech
 set_technology = {
 	infantry_weapons = 1
-	tech_support = 1
-	tech_recon = 1
+	gwtank = 1
 }
+
+set_convoys = 5
 
 set_politics = {
 
@@ -33,13 +35,13 @@ set_politics = {
 		    popularity = 0
 		}
 		social_conservative = {
-		    popularity = 100
+		    popularity = 0
 		}
 		authoritarian_democrat = {
 		    popularity = 0
 		}
 		paternal_autocrat = {
-		    popularity = 0
+		    popularity = 100
 		}
 		national_populist = {
 		    popularity = 0
@@ -49,22 +51,19 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_conservative
-	last_election = "1933.3.5"
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_convoys = 5
-
 create_country_leader = {
-	name = "Bernard Henry Bourdillon"
-	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_BWA_Bernard_Henry_Bourdillon.tga"
-	expire = "1999.1.1"
-	ideology = social_conservative_subtype
+	name = "Abdulaziz Ibn Saud"
+	desc = "POLITICS_ABDULAZIZ_DESC"
+	picture = "Portrait_Saudi_Arabia_Abdulazis_Ibn_Saud.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
 	traits = {
 		#
 	}
 }
-
