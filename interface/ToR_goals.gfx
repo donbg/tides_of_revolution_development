@@ -1,0 +1,11 @@
+spriteTypes = {	
+
+
+		SpriteType = {
+		    name = "GFX_free_church"
+		    texturefile = "gfx/interface/goals/Free_Church.tga"
+	}
+	
+	
+	
+}

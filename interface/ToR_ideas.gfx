@@ -1,25 +1,18 @@
 spriteTypes = {
 
 
-
+#Russia
     spriteType = {
 		name = "GFX_idea_focus_ger_bulwark_against_bolshevism"
 		texturefile = "gfx/interface/ideas/RUS/focus_ger_bulwark_against_bolshevism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_focus_ger_revive_kaiserreich"
-		texturefile = "gfx/interface/ideas/RUS/focus_ger_revive_kaiserreich.dds"
+		texturefile = "gfx/interface/ideas/RUS/Wilhelm_II_influence.tga"
 	}
-	spriteType = {
-		name = "GFX_idea_focus_refugee_management"
-		texturefile = "gfx/interface/ideas/RUS/focus_refugee_management.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_goal_revolution"
-		texturefile = "gfx/interface/ideas/RUS/goal_revolution.dds"
-	}
-	spriteType = {
+		spriteType = {
 		name = "GFX_idea_goal_tax_church"
 		texturefile = "gfx/interface/ideas/RUS/goal_tax_church.dds"
-	}
+	}	
+	
 }

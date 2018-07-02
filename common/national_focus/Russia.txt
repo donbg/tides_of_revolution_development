@@ -1,0 +1,1691 @@
+#Made by Darkhanius
+focus_tree = {
+     id = russian_focus
+
+    country = {
+	 factor = 0
+	 modifier = {
+			add = 10
+			tag = RUS
+	}
+  }
+    default = no
+	continuous_focus_position = { x = 5000 y = 3000 }
+
+#Industry
+	focus = {
+	     id = RUS_reconstruction    
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 9
+		 y = 1
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		focus = {
+	     id = RUS_privatise_state_land  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 7
+		 y = 2
+		 cost = 10
+		 prerequisite = { focus = RUS_reconstruction }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		focus = {
+	     id = RUS_regional_reforms  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 11
+		 y = 2
+		 cost = 10
+		 prerequisite = { focus = RUS_reconstruction }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		focus = {
+	     id = RUS_new_businesses 
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 7
+		 y = 3
+		 cost = 10
+		 prerequisite = { focus = RUS_privatise_state_land  }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+	    focus = {
+	     id =  RUS_refugee_workforce 
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 11
+		 y = 3
+		 cost = 10
+		 prerequisite = { focus = RUS_regional_reforms   }
+
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		focus = {
+	     id = RUS_rise_from_ashes  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 9
+		 y = 4
+		 cost = 10
+		 prerequisite = { focus = RUS_new_businesses   }
+		 prerequisite = { focus = RUS_refugee_workforce   }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+	    
+		focus = {
+	     id = RUS_urban  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 5
+		 y = 6
+		 cost = 10
+		 mutually_exclusive = { focus = RUS_rural }
+		 prerequisite = { focus = RUS_rise_from_ashes   }
+
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+	  
+		focus = {
+	     id = RUS_rural  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 13
+		 y = 6
+		 cost = 10
+		 mutually_exclusive = { focus = RUS_urban }
+		 prerequisite = { focus = RUS_rise_from_ashes   }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+	
+		focus = {
+	     id = RUS_zauralsko 
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 9
+		 y = 7
+		 cost = 10
+		 prerequisite = { focus = RUS_rise_from_ashes   }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_public_housing  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 1
+		 y = 7
+		 cost = 10
+		 prerequisite = { focus = RUS_urban   }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+			 focus = {
+	     id = RUS_heavy_industry_focus 
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 3
+		 y = 7
+		 cost = 10
+		 prerequisite = { focus = RUS_urban   }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+			 focus = {
+	     id = RUS_new_metro_system  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 5
+		 y = 7
+		 cost = 10
+		 prerequisite = { focus = RUS_urban   }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+			 focus = {
+	     id = RUS_transsiberian_railway 
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 7
+		 y = 8
+		 cost = 10
+		 prerequisite = { focus = RUS_zauralsko   }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+			 focus = {
+	     id = RUS_hunt_shamanists  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 9
+		 y = 8
+		 cost = 10
+		 prerequisite = { focus = RUS_zauralsko   }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+			 focus = {
+	     id = RUS_siberian_exploitation  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 11
+		 y = 8
+		 cost = 10
+		 prerequisite = { focus = RUS_zauralsko   }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+			 focus = {
+	     id = RUS_reopen_manufactories  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 13
+		 y = 7
+		 cost = 10
+		 prerequisite = { focus = RUS_rural   }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+			 focus = {
+	     id = RUS_railway_expansion  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 15
+		 y = 7
+		 cost = 10
+		 prerequisite = { focus = RUS_rural   }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+			 focus = {
+	     id = RUS_mining_operations
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 17
+		 y = 7
+		 cost = 10
+		 prerequisite = { focus = RUS_rural   }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+			 focus = {
+	     id = RUS_model_cities  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 5
+		 y = 8
+		 cost = 10
+		 prerequisite = { focus = RUS_new_metro_system   }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_peasant_revolution 
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 13
+		 y = 8
+		 cost = 10
+		 prerequisite = { focus = RUS_reopen_manufactories   }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+
+#War industry
+		 focus = {
+	     id = RUS_rearmament_program  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 23
+		 y = 2
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_military_parade  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 23
+		 y = 3
+		 cost = 10
+		 prerequisite = { focus = RUS_rearmament_program   }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_german_experts  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 21
+		 y = 4
+		 cost = 10
+		 prerequisite = { focus = RUS_military_parade   }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_petrograd_armories  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 25
+		 y = 4
+		 cost = 10
+		 prerequisite = { focus = RUS_military_parade   }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_gun_to_every_house   
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 21
+		 y = 6
+		 cost = 10
+		 prerequisite = { focus = RUS_german_experts   }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_ural_factories  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 25
+		 y = 6
+		 cost = 10
+		 prerequisite = { focus = RUS_petrograd_armories   }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_build_tanks  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 21
+		 y = 7
+		 cost = 10
+		 prerequisite = { focus = RUS_gun_to_every_house   }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_cossack_workforce  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 25
+		 y = 7
+		 cost = 10
+		 prerequisite = { focus = RUS_ural_factories   }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_work_camps  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 23
+		 y = 8
+		 cost = 10
+		 prerequisite = { focus = RUS_build_tanks   }
+		 prerequisite = { focus = RUS_cossack_workforce   }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+#Political
+		 focus = {
+	     id = RUS_republic_survives   
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 5
+		 y = 11
+		 cost = 10
+		 mutually_exclusive = { focus = RUS_supreme_leader }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_supreme_leader   
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 13
+		 y = 11
+		 cost = 10
+		 mutually_exclusive = { focus = RUS_republic_survives }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_christian_values  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 5
+		 y = 13
+		 cost = 10
+		 prerequisite = { focus = RUS_republic_survives   }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_seize_foreign_factories  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 7
+		 y = 13
+		 cost = 10
+		 prerequisite = { focus = RUS_republic_survives focus = RUS_supreme_leader }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_revive_market   
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 11
+		 y = 13
+		 cost = 10
+		 prerequisite = { focus = RUS_republic_survives focus = RUS_supreme_leader }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_abolish_duma  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 13
+		 y = 13
+		 cost = 10
+		 prerequisite = { focus = RUS_supreme_leader   }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_negotiate_with_extremists  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 5
+		 y = 14
+		 cost = 10
+		 prerequisite = { focus = RUS_christian_values   }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_state_corporatism  
+		 icon = Russian_State_Corporatism.tga
+		 available = {
+		 
+		 }    
+		 x = 9
+		 y = 14
+		 cost = 10
+			prerequisite = { focus = RUS_revive_market   }
+            prerequisite = { focus = RUS_seize_foreign_factories   }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_expand_secret_police  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 13
+		 y = 14
+		 cost = 10
+            prerequisite = { focus = RUS_abolish_duma   }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_embrace_panslavism  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 3
+		 y = 15
+		 cost = 10
+            prerequisite = { focus = RUS_negotiate_with_extremists }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_formalize_new_constitution  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 5
+		 y = 15
+		 cost = 10
+            prerequisite = { focus =  RUS_negotiate_with_extremists }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_solve_unemployment   
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 7
+		 y = 15
+		 cost = 10
+            prerequisite = { focus =  RUS_state_corporatism }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_improve_living_conditions  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 11
+		 y = 15
+		 cost = 10
+            prerequisite = { focus =  RUS_state_corporatism }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_firm_hand   
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 13
+		 y = 15
+		 cost = 10
+            prerequisite = { focus =  RUS_expand_secret_police }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_blind_eye  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 15
+		 y = 15
+		 cost = 10
+            prerequisite = { focus =  RUS_expand_secret_police }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_class_cooperation  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 5
+		 y = 16
+		 cost = 10
+            prerequisite = { focus =  RUS_formalize_new_constitution }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_new_bank  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 9
+		 y = 16
+		 cost = 10
+            prerequisite = { focus =  RUS_solve_unemployment }
+            prerequisite = { focus =  RUS_improve_living_conditions }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_propaganda_machine  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 13
+		 y = 16
+		 cost = 10
+            prerequisite = { focus =  RUS_firm_hand }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_republic_for_slavs 
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 3
+		 y = 17
+		 cost = 10
+            prerequisite = { focus =  RUS_embrace_panslavism }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_reeducate_populace   
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 5
+		 y = 17
+		 cost = 10
+            prerequisite = { focus =  RUS_class_cooperation }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_new_economic_plan  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 7
+		 y = 17
+		 cost = 10
+            prerequisite = { focus =  RUS_new_bank }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_women_of_russia 
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 11
+		 y = 17
+		 cost = 10
+            prerequisite = { focus = RUS_new_bank }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_crush_opposition  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 13
+		 y = 17
+		 cost = 10
+            prerequisite = { focus =  RUS_propaganda_machine }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_fanatical_youth  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 15
+		 y = 17
+		 cost = 10
+            prerequisite = { focus =  RUS_blind_eye }
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_nation_reborn  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 9
+		 y = 18
+		 cost = 10
+            prerequisite = { focus =  RUS_new_economic_plan }
+            prerequisite = { focus =  RUS_women_of_russia }
+
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+#Church
+		 focus = {
+	     id = RUS_church_question  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 23
+		 y = 10
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_free_church  
+		 icon = GFX_free_church
+		 available = {
+		 
+		 }    
+		 x = 21
+		 y = 11
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_state_and_church  
+		 icon = State_Church.tga
+		 available = {
+		 
+		 }    
+		 x = 25
+		 y = 11
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_christian_solidarity  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 21
+		 y = 12
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_enforce_authority    #Church authority
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 25
+		 y = 12
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_church_tax  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 21
+		 y = 13
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_holy_militias  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 25
+		 y = 13
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_caesaropapism  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 27
+		 y = 12
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+#Commies
+		 focus = {
+	     id = RUS_crush_revolution  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 23
+		 y = 15
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_emergency_preparations  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 21
+		 y = 16
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_deal_with_socialists  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 23
+		 y = 16
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_state_of_emergency  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 25
+		 y = 16
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_barricade_cities 
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 21
+		 y = 17
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_mobilize_population  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 23
+		 y = 17
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_feed_our_army  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 25
+		 y = 17
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_victorius_again  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 23
+		 y = 19
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_the_last_solution 
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 23
+		 y = 20
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+#Army
+		 focus = {
+	     id = RUS_military_council  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 32
+		 y = 2
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }	
+		 focus = {
+	     id = RUS_traditional_warfare  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 30
+		 y = 3
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_greatest_army  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 34
+		 y = 3
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_veteran_generals  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 30
+		 y = 4
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_secret_laboratories  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 32
+		 y = 4
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_officer_schools  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 34
+		 y = 4
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_study_great_war  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 30
+		 y = 5
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_rocket_silos  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 32
+		 y = 5
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_new_tactics  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 34
+		 y = 5
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_traditional_drill  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 30
+		 y = 6
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_project_tsar  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 32
+		 y = 6
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_special_forces  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 34
+		 y = 6
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_fight_stronger  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 30
+		 y = 7
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+
+		 focus = {
+	     id = RUS_Fight_smarter  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 34
+		 y = 7
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }	
+#Airforce
+		 focus = {
+	     id = RUS_airfield  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 38
+		 y = 2
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_pilot_schools  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 37
+		 y = 3
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_new_models  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 39
+		 y = 3
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_radar  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 38
+		 y = 4
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_air_doctrine1  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 37
+		 y = 5
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_air_doctrine2  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 39
+		 y = 5
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+#Navy
+		 focus = {
+	     id = RUS_dockyard  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 43
+		 y = 2
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_submarines  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 42
+		 y = 3
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_cruiser_models  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 44
+		 y = 3
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_navy_doctrine  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 43
+		 y = 4
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_strong_fleet  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 42
+		 y = 5
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+		 focus = {
+	     id = RUS_quick_fleet  
+		 icon = 
+		 available = {
+		 
+		 }    
+		 x = 44
+		 y = 5
+
+		 cost = 10
+		 
+		 available_if_capitulated = yes
+		 
+		 completion_reward = {
+
+		} 
+    }
+#Foreign	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
