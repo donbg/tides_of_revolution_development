@@ -13,7 +13,7 @@ state={
 		add_core_of = BWA
 	}
 	
-	manpower=10000
+	manpower=1570000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

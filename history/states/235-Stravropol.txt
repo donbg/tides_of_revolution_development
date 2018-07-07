@@ -10,12 +10,12 @@ state={
 	}
 
 	history={
-		owner = MOU
+		owner = KUB
 		buildings = {
 			infrastructure = 4
 			air_base = 2
 		}
-		add_core_of = MOU
+		add_core_of = KUB
 	}
 
 	provinces={

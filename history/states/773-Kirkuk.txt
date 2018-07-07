@@ -1,0 +1,25 @@
+state={
+	id=773
+	name="STATE_773"
+	manpower = 1182741
+	
+	state_category = rural
+	
+	resources={
+		oil=4
+	}
+
+
+	history={
+		owner = KUR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KUR
+		add_core_of = IRQ
+	}
+	
+	provinces={
+		10811 5014 3916 6826 8123 10793
+	}
+}

@@ -74,7 +74,7 @@ set_politics = {
 set_stability = 0.6
 
 create_country_leader = {
-	name = "Alexander"
+	name = "Alexander I"
 	desc = ""
 	picture = "Alexander_II.dds"
 	expire = "1999.1.1"

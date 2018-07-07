@@ -86,8 +86,8 @@ ALB = {
 	color_ui = rgb { 112 65 79 }
 }
 NOR = {
-	color = rgb { 111 71 71 }
-	color_ui = rgb { 144 92 92 }
+	color = rgb { 135 178 192 } #111 71 71
+	color_ui = rgb { 161 213 230 } #144 92 92
 }
 DEN = {
 	color = rgb { 153 87 111 }
@@ -118,7 +118,7 @@ AFG = {
 	color_ui = rgb { 0 106 167 }
 }
 ARG = {
-	color = rgb { 112 132 186 }
+	color = rgb { 100 182 240 }
 	color_ui = rgb { 189 204 255 }
 }
 AST = {
@@ -130,8 +130,8 @@ BHU = {
 	color_ui = rgb { 172 122 88 }
 }
 BOL = {
-	color = rgb { 198 138 85 }
-	color_ui = rgb { 198 138 85 }
+	color = rgb { 145 128 149 }
+	color_ui = rgb { 145 128 149 }
 }
 BRA = {
 	color = rgb { 22 102 45 }
@@ -142,12 +142,12 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = rgb { 255 244 190 }
-	color_ui = rgb { 255 244 190 }
+	color = rgb { 255 197 0 }
+	color_ui = rgb { 255 197 0 }
 }
 CHL = {
-	color = rgb { 56 118 150 }
-	color_ui = rgb { 206 118 30}
+	color = rgb { 0 89 132 }
+	color_ui = rgb { 0 89 132 }
 }
 COL = {
 	color = rgb { 214 194 108 }
@@ -234,12 +234,12 @@ SIA = {
 	color_ui = rgb { 222 247 198 }
 }
 SIK = {
-	color = rgb { 71 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 204 167 98 }
+	color_ui = rgb { 204 167 98 }
 }
 TIB = {
-	color = rgb { 80 115 45}
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 177 207 205 }
+	color_ui = rgb { 177 207 205 }
 }
 URG = {
 	color = rgb { 171 190 152 }
@@ -419,8 +419,8 @@ MNT = {
 }
 
 BLR = {
-	color = rgb { 72 167 86 }
-	color_ui = rgb { 72 167 86 }
+	color = rgb { 239 238 215 }
+	color_ui = rgb { 239 238 215 }
 }
 MAN = {
 	color = rgb { 189 113 33 }
@@ -603,4 +603,16 @@ SUD = {
 TRK = {
 	color = rgb { 100 150 105 }
 	color_ui = rgb { 100 150 105 }
+}
+KAZ = {
+	color = rgb { 0 77 103 }
+	color_ui = rgb { 0 77 103 }
+}
+KUB = {
+	color = rgb { 171 19 73 }
+	color_ui = rgb { 171 19 73 }
+}
+KUR = {
+	color = rgb { 80 120 230 }
+	color_ui = rgb { 80 120 230 }
 }

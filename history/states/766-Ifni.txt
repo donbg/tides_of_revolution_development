@@ -1,0 +1,21 @@
+state={
+	id=766
+	name="STATE_766"
+	manpower = 20000
+	
+	state_category = rural
+
+	history={
+		owner = MOR
+		buildings = {
+			infrastructure = 1
+			12857 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		12857
+	}
+}

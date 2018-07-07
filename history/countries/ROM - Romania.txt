@@ -70,7 +70,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Mihai"
+	name = "Mihai I"
 	desc = "POLITICS_GHEORGHE_TATARESCU_DESC"
 	picture = "Portrait_ROM_Michael_I_Young.tga"
 	expire = "1999.1.1"

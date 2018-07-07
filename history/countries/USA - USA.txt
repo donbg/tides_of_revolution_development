@@ -62,32 +62,39 @@ give_guarantee = URG
 
 set_convoys = 400
 
+add_ideas = {
+	undisturbed_isolation
+	great_depression
+	disarmed_nation
+	free_trade
+}
+
 set_politics = {
 
 	parties = {
 		internationalist = { 
-			popularity = 0
+			popularity = 1
 		}
 		vanguardist = { 
-			popularity = 0
+			popularity = 1
 		}
 		collectivist = {
-		    popularity = 0
+		    popularity = 15
 		}
 		libertarian_socialist = {
-		    popularity = 0
+		    popularity = 6
 		}
 		social_democrat = {
-		    popularity = 0
+		    popularity = 20
 		}
 		social_liberal = {
-		    popularity = 0
+		    popularity = 21
 		}
 		market_liberal = {
-		    popularity = 0
+		    popularity = 11
 		}
 		social_conservative = {
-		    popularity = 100
+		    popularity = 19
 		}
 		authoritarian_democrat = {
 		    popularity = 0
@@ -96,42 +103,70 @@ set_politics = {
 		    popularity = 0
 		}
 		national_populist = {
-		    popularity = 0
+		    popularity = 6
 		}
 		revolutionary_nationalist = {
 		    popularity = 0
 		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = social_liberal
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-add_ideas = {
-	undisturbed_isolation
-	great_depression
-	disarmed_nation
-	free_trade
-}
-
-
-# DIPLOMACY
-set_autonomy = {
-	target = PHI
-	autonomous_state =  autonomy_puppet
+create_country_leader = {
+	name = "Robert La Follette"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_USA_Robert_La_Follette.tga"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	}
 }
 
 create_country_leader = {
-	name = "Al Smith"
+	name = "Alfred Smith"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Al_Smith.dds"
+	picture = "Portrait_USA_Al_Smith.tga"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Robert Taft"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_USA_Robert_taft.tga"
+	expire = "1999.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bennett Champ Clark"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_USA_Al_Smith.tga"
 	expire = "1999.1.1"
 	ideology = social_conservative_subtype
 	traits = {
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 create_country_leader = {
 	name = "William Dudley Pelley"

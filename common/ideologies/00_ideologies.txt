@@ -40,7 +40,7 @@ ideologies = {
 			"FACTION_NAME_VANGUARDIST_5"
 			"FACTION_NAME_VANGUARDIST_6"
 		}
-		color = { 155 0 0 }
+		color = { 127 0 0 }
 		rules = {
 			can_force_government = no
 			can_puppet = no

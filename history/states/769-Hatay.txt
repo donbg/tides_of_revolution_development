@@ -1,0 +1,23 @@
+
+state={
+	id=769
+	name="STATE_769"
+	manpower = 10000
+	
+	state_category = town
+	
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = TUR
+		add_core_of = SYR
+
+	}
+
+	
+	provinces={
+		12029
+	}
+}
