@@ -28,9 +28,6 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		internationalist = { 
-			popularity = 0
-		}
 		vanguardist = { 
 			popularity = 0
 		}
@@ -60,9 +57,6 @@ set_politics = {
 		}
 		national_populist = {
 		    popularity = 5
-		}
-		revolutionary_nationalist = {
-		    popularity = 0
 		}
 	}
 	

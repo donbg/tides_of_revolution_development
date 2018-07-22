@@ -90,11 +90,8 @@ add_to_faction = ISR
 set_politics = {
 
 	parties = {
-		internationalist = { 
-			popularity = 1
-		}
 		vanguardist = { 
-			popularity = 0
+			popularity = 1
 		}
 		collectivist = {
 		    popularity = 2
@@ -122,9 +119,6 @@ set_politics = {
 		}
 		national_populist = {
 		    popularity = 2
-		}
-		revolutionary_nationalist = {
-		    popularity = 0
 		}
 	}
 	

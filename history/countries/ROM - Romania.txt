@@ -25,9 +25,6 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		internationalist = { 
-			popularity = 0
-		}
 		vanguardist = { 
 			popularity = 0
 		}
@@ -57,9 +54,6 @@ set_politics = {
 		}
 		national_populist = {
 		    popularity = 100
-		}
-		revolutionary_nationalist = {
-		    popularity = 0
 		}
 	}
 	

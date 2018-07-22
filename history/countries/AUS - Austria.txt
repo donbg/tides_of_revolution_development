@@ -19,9 +19,6 @@ puppet = HUN
 set_politics = {
 
 	parties = {
-		internationalist = { 
-			popularity = 0
-		}
 		vanguardist = { 
 			popularity = 1
 		}
@@ -51,9 +48,6 @@ set_politics = {
 		}
 		national_populist = {
 		    popularity = 2
-		}
-		revolutionary_nationalist = {
-		    popularity = 0
 		}
 	}
 	

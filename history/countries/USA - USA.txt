@@ -72,41 +72,35 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		internationalist = { 
-			popularity = 1
-		}
 		vanguardist = { 
-			popularity = 1
+			popularity = 2
 		}
 		collectivist = {
-		    popularity = 15
+		    popularity = 3
 		}
 		libertarian_socialist = {
-		    popularity = 6
+		    popularity = 23
 		}
 		social_democrat = {
-		    popularity = 20
+		    popularity = 4
 		}
 		social_liberal = {
-		    popularity = 21
+		    popularity = 34
 		}
 		market_liberal = {
-		    popularity = 11
+		    popularity = 26
 		}
 		social_conservative = {
-		    popularity = 19
+		    popularity = 3
 		}
 		authoritarian_democrat = {
-		    popularity = 0
+		    popularity = 3
 		}
 		paternal_autocrat = {
 		    popularity = 0
 		}
 		national_populist = {
-		    popularity = 6
-		}
-		revolutionary_nationalist = {
-		    popularity = 0
+		    popularity = 3
 		}
 	}
 	
@@ -117,7 +111,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Robert La Follette"
+	name = "William Edgar Borah"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Robert_La_Follette.tga"
 	expire = "1999.1.1"
@@ -156,7 +150,15 @@ create_country_leader = {
 	}
 }
 
-
+create_country_leader = {
+	name = "Huey Long"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_USA_bust_a_nut_for_huey.tga"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
 
 
 

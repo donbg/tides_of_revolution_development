@@ -52,9 +52,6 @@ add_to_faction = WAL
 set_politics = {
 
 	parties = {
-		internationalist = { 
-			popularity = 10
-		}
 		vanguardist = { 
 			popularity = 18
 		}
@@ -83,9 +80,6 @@ set_politics = {
 		    popularity = 0
 		}
 		national_populist = {
-		    popularity = 0
-		}
-		revolutionary_nationalist = {
 		    popularity = 0
 		}
 	}

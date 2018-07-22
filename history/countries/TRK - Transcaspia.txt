@@ -11,11 +11,8 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		internationalist = { 
-			popularity = 2
-		}
 		vanguardist = { 
-			popularity = 2
+			popularity = 4
 		}
 		collectivist = {
 		    popularity = 6
@@ -42,10 +39,7 @@ set_politics = {
 		    popularity = 5
 		}
 		national_populist = {
-		    popularity = 10
-		}
-		revolutionary_nationalist = {
-		    popularity = 1
+		    popularity = 11
 		}
 	}
 	

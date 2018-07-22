@@ -16,9 +16,6 @@ set_convoys = 45
 set_politics = {
 
 	parties = {
-		internationalist = { 
-			popularity = 0
-		}
 		vanguardist = { 
 			popularity = 1
 		}
@@ -47,10 +44,7 @@ set_politics = {
 		    popularity = 56
 		}
 		national_populist = {
-		    popularity = 5
-		}
-		revolutionary_nationalist = {
-		    popularity = 3
+		    popularity = 8
 		}
 	}
 	
