@@ -39,41 +39,65 @@ set_politics = {
 		    popularity = 2
 		}
 		libertarian_socialist = {
-		    popularity = 7
+		    popularity = 5
 		}
 		social_democrat = {
-		    popularity = 23
+		    popularity = 19
 		}
 		social_liberal = {
 		    popularity = 14
 		}
 		market_liberal = {
-		    popularity = 29
+		    popularity = 16
 		}
 		social_conservative = {
-		    popularity = 18
+		    popularity = 23
 		}
 		authoritarian_democrat = {
-		    popularity = 0
+		    popularity = 12
 		}
 		paternal_autocrat = {
-		    popularity = 0
+		    popularity = 5
 		}
 		national_populist = {
-		    popularity = 6
+		    popularity = 3
 		}
 	}
 	
-	ruling_party = market_liberal
+	ruling_party = social_conservative
 	last_election = "1934.9.15"
 	election_frequency = 36
 	elections_allowed = no
 }
 
+#LEADERS
+
 create_country_leader = {
 	name = "Isaac Isaacs"
 	desc = "POLITICS_JOHN_CURTIN_DESC"
-	picture = "Portrait_AST_Isaac_Isaacs.dds"
+	picture = "Portrait_AST_Isaac_Isaacs.tga"
+	expire = "19++.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Isaac Isaacs"
+	desc = "POLITICS_JOHN_CURTIN_DESC"
+	picture = "Portrait_AST_Isaac_Isaacs.tga"
+	expire = "19++.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Isaac Isaacs"
+	desc = "POLITICS_JOHN_CURTIN_DESC"
+	picture = "Portrait_AST_Isaac_Isaacs.tga"
 	expire = "19++.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -81,69 +105,40 @@ create_country_leader = {
 	}
 }
 
-
-
-
-
-
-
 create_country_leader = {
-	name = "John Curtin"
+	name = "Isaac Isaacs"
 	desc = "POLITICS_JOHN_CURTIN_DESC"
-	picture = "Portrait_Australia_John_Curtin.dds"
-	expire = "1965.1.1"
-	ideology = socialism
+	picture = "Portrait_AST_Isaac_Isaacs.tga"
+	expire = "19++.1.1"
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Eric Campbell"
-	desc = "POLITICS_ERIC_CAMPBELL_DESC"
-	picture = "GFX_AST_eric_campbell"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
+	name = "Isaac Isaacs"
+	desc = "POLITICS_JOHN_CURTIN_DESC"
+	picture = "Portrait_AST_Isaac_Isaacs.tga"
+	expire = "19++.1.1"
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Richard Dixon"
-	desc = "POLITICS_RICHARD_DIXON_DESC"
-	picture = "GFX_AST_richard_dixon"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
+#COMMANDERS
+
+create_field_marshal = {
+	name = "William Birdwood"
+	picture = "Portrait_AST_William_Birdwood.tga"
+	traits = { old_guard politically_connected }
+	skill = 4
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 4
+    logistics_skill = 2
 }
-
-create_country_leader = {
-	name = "Earle Page"
-	desc = "POLITICS_EARLE_PAGE_DESC"
-	picture = "GFX_AST_earle_page"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rod Hull"
-	desc = ""
-	picture = "Portrait_Australia_Rod_Hull.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-
-
 
 create_corps_commander = {
 	name = "Leslie Morshead"
@@ -155,8 +150,6 @@ create_corps_commander = {
     planning_skill = 5
     logistics_skill = 2
 }
-
-
 
 create_corps_commander = {
 	name = "Thomas Blamey"

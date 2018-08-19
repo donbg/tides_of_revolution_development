@@ -31,45 +31,69 @@ set_politics = {
 			popularity = 0
 		}
 		collectivist = {
-		    popularity = 0
+		    popularity = 5
 		}
 		libertarian_socialist = {
 		    popularity = 0
 		}
 		social_democrat = {
-		    popularity = 0
+		    popularity = 4
 		}
 		social_liberal = {
-		    popularity = 0
+		    popularity = 33
 		}
 		market_liberal = {
-		    popularity = 0
+		    popularity = 11
 		}
 		social_conservative = {
-		    popularity = 0
+		    popularity = 38
 		}
 		authoritarian_democrat = {
-		    popularity = 0
+		    popularity = 7
 		}
 		paternal_autocrat = {
-		    popularity = 100
+		    popularity = 2
 		}
 		national_populist = {
 		    popularity = 0
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = social_conservative
 	last_election = "1935.6.9"
 	election_frequency = 12
 	elections_allowed = no
 }
 set_stability = 0.75
 
+#LEADERS
+
 create_country_leader = {
 	name = "Giórgios II"
 	desc = "POLITICS_IOANNIS_METAXAS_DESC"
-	picture = "Portrait_GRE_Georgois_II.dds"
+	picture = "Portrait_GRE_George.tga"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Giórgios II"
+	desc = "POLITICS_IOANNIS_METAXAS_DESC"
+	picture = "Portrait_GRE_George.tga"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Giórgios II"
+	desc = "POLITICS_IOANNIS_METAXAS_DESC"
+	picture = "Portrait_GRE_George.tga"
 	expire = "1999.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -77,55 +101,7 @@ create_country_leader = {
 	}
 }
 
-
-
-
-
-
-create_country_leader = {
-	name = "Ioannis Metaxas"
-	desc = "POLITICS_IOANNIS_METAXAS_DESC"
-	picture = "Portrait_Greece_Ioannis_Metaxas.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Markos Vafiadis"
-	desc = "POLITICS_MARKOS_VAFIADIS_DESC"
-	picture = "Portrait_Greece_Markos_Vafiadis.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Konstantinos Tsaldaris"
-	desc = "POLITICS_KONSTANTINOS_TSALDARIS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Georgios Kosmidis"
-	desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
+#COMMANDERS
 
 create_corps_commander = {
 	name = "Markos Drakos"

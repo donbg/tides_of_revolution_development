@@ -1,0 +1,25 @@
+state={
+	id=776
+	name="STATE_776"
+	manpower = 1182741
+	
+	state_category = city
+	
+	resources={
+		oil=2
+	}
+
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KUR
+		add_core_of = IRQ
+	}
+	
+	provinces={
+		3795 10793 8123 6826
+	}
+}

@@ -62,3 +62,13 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Charles Vyner Brooke"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_AST_Charles_Vyner_Brooke.tga"
+	expire = "1999.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}

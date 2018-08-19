@@ -3,11 +3,12 @@ state={
 	name="STATE_665"
 
 	history={
-		owner = ITA
+		owner = TUN
 		buildings = {
 			infrastructure = 3
 
 		}
+		add_core_of = TUN
 	}
 	
 	state_category = pastoral

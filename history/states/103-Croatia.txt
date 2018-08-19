@@ -23,7 +23,6 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = HUN
 		add_core_of = CRO
 	}
 

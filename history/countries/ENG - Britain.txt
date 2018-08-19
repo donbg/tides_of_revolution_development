@@ -103,7 +103,7 @@ set_politics = {
 		    popularity = 21
 		}
 		social_liberal = {
-		    popularity = 35
+		    popularity = 32
 		}
 		market_liberal = {
 		    popularity = 9
@@ -115,10 +115,10 @@ set_politics = {
 		    popularity = 0
 		}
 		paternal_autocrat = {
-		    popularity = 0
+		    popularity = 2
 		}
 		national_populist = {
-		    popularity = 2
+		    popularity = 3
 		}
 	}
 	
@@ -131,7 +131,7 @@ set_politics = {
 create_country_leader = {
 	name = "George V"
 	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_George.dds"
+	picture = "Portrait_ENG_George_V.tga"
 	expire = "1999.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -141,7 +141,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "George V"
 	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_George.dds"
+	picture = "Portrait_ENG_George_V.tga"
 	expire = "1999.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -151,7 +151,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "George V"
 	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_George.dds"
+	picture = "Portrait_ENG_George_V.tga"
 	expire = "1999.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -161,7 +161,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "George V"
 	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_George.dds"
+	picture = "Portrait_ENG_George_V.tga"
 	expire = "1999.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -171,7 +171,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "George V"
 	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_George.dds"
+	picture = "Portrait_ENG_George_V.tga"
 	expire = "1999.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -181,7 +181,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "George V"
 	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_George.dds"
+	picture = "Portrait_ENG_George_V.tga"
 	expire = "1999.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {

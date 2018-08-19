@@ -1,5 +1,6 @@
 ﻿l_english:
- LOADING_TIP_0:0 "My name is Fanya Kaplan. Today I shot Lenin. I had resolved to kill Lenin long ago. I consider him a traitor to the Revolution.\n- Fanya Kaplan"
+ #TEMPLATE LOADING_TIP_X:0 "\n- XXX"
+ LOADING_TIP_0:0 "This treaty does not spell peace but war — war more woeful and devastating than ever before.\n- Philander Chase Knox on the Treaty of Versailles"
  LOADING_TIP_1:0 "There is only one person who is master in this Empire and I am not going to tolerate any other.\n- Wilhelm II"
  LOADING_TIP_2:0 "I regard every Social Democrat as an enemy of the Empire and Fatherland.\n- Kaiser Wilhelm II"
  LOADING_TIP_3:0 "I look upon him as the greatest criminal known for having plunged the world into war.\n- George V on his cousin, Wilhelm II"
@@ -8,3 +9,6 @@
  LOADING_TIP_6:0 "I am firmly convinced that Spain is the strongest country of the world. Century after century trying to destroy herself and still no success.\n- Otto von Bismarck"
  LOADING_TIP_7:0 "Something like this could have happened in another universe.\n- Eric Blair"
  LOADING_TIP_8:0 "People sleep peaceably in their beds at night only because rough men stand ready to do violence on their behalf.\n- Eric Blair"
+ LOADING_TIP_9:0 "France cannot be destroyed. She is an old country who, despite her misfortunes, has, and always will have, thanks to her past, a tremendous prestige in the world, whatever the fate inflicted upon her.\n- Pierre Laval"
+ LOADING_TIP_10:0 "It is easy to be tolerant of the principles of other people if you have none of your own.\n- Sir Herbert Samuel"
+ LOADING_TIP_11:0 "Capitalism is the astounding belief that the most wickedest of men will do the most wickedest of things for the greatest good of everyone.\n- John Maynard Keynes"

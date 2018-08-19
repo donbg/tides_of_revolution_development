@@ -78,6 +78,26 @@ set_convoys = 25
 set_stability = 0.9
 
 create_country_leader = {
+	name = "Nils Flyg"
+	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
+	picture = "Portrait_Nils_Flyg.tga"
+	expire = "1999.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sven Linderot"
+	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
+	picture = "Portrait_Sven_Linderot.tga"
+	expire = "1999.1.1"
+	ideology = collectivist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
 	name = "Gustav V"
 	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
 	picture = "Portrait_Sweden_Gustav.dds"
@@ -138,9 +158,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustav V"
+	name = "Sven Olov Lindholm"
 	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
-	picture = "Portrait_Sweden_Gustav.dds"
+	picture = "Portrait_Sven_Olov_Lindholm.tga"
 	expire = "1999.1.1"
 	ideology = national_populist_subtype
 	traits = {

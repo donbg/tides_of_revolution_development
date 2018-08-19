@@ -44,6 +44,7 @@ set_technology = {
 
 	give_guarantee = ALB
 
+puppet = TUN
 
 set_convoys = 200
 
@@ -51,25 +52,25 @@ set_politics = {
 
 	parties = {
 		vanguardist = { 
-			popularity = 7
+			popularity = 2
 		}
 		collectivist = {
-		    popularity = 16
+		    popularity = 4
 		}
 		libertarian_socialist = {
-		    popularity = 6
+		    popularity = 8
 		}
 		social_democrat = {
-		    popularity = 26
+		    popularity = 36
 		}
 		social_liberal = {
-		    popularity = 6
+		    popularity = 11
 		}
 		market_liberal = {
-		    popularity = 10
+		    popularity = 3
 		}
 		social_conservative = {
-		    popularity = 13
+		    popularity = 19
 		}
 		authoritarian_democrat = {
 		    popularity = 2
@@ -78,7 +79,7 @@ set_politics = {
 		    popularity = 0
 		}
 		national_populist = {
-		    popularity = 14
+		    popularity = 15
 		}
 	}
 	
@@ -88,10 +89,12 @@ set_politics = {
 	elections_allowed = no
 }
 
+#LEADERS
+
 create_country_leader = {
-	name = "Ivanoe Bonomi"
+	name = "Giacomo Matteotti"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "Portrait_Italy_Ivanoe_Bonomi.dds"
+	picture = "Portrait_SRI_Giacomo_Matteotti.tga"
 	expire = "1999.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -100,9 +103,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vittorio Emanuele III"
+	name = "Vittorio Emanuele Orlando"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "Portrait_Italy_Vittorio_Emmanuele.dds"
+	picture = "Portrait_Italy_Vittorio_Emanuele_Orlando.tga"
 	expire = "1999.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -111,9 +114,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vittorio Emanuele III"
+	name = "Luigi Einaudi"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "Portrait_Italy_Vittorio_Emmanuele.dds"
+	picture = "Portrait_Italy_Luigi_Einaudi.tga"
 	expire = "1999.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -122,9 +125,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vittorio Emanuele III"
+	name = "Alcide de Gasperi"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "Portrait_Italy_Vittorio_Emmanuele.dds"
+	picture = "Portrait_Italy_Alcide_de_Gasperi.tga"
 	expire = "1999.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -155,15 +158,17 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vittorio Emanuele III"
+	name = "Gabriele d'Annunzio"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "Portrait_Italy_Vittorio_Emmanuele.dds"
+	picture = "Portrait_ITA_Gabriele_Anunnzio.tga"
 	expire = "1999.1.1"
 	ideology = national_populist_subtype
 	traits = {
 		
 	}
 }
+
+#COMMANDERS
 
 create_field_marshal = {
 	name = "Pietro Badoglio"

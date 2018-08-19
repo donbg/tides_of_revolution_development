@@ -45,30 +45,30 @@ set_technology = {
 
 set_convoys = 300
 
-create_faction = fourth_international
+create_faction = international
+
 add_to_faction = FRA
-add_to_faction = WAL
 
 set_politics = {
 
 	parties = {
 		vanguardist = { 
-			popularity = 18
+			popularity = 14
 		}
 		collectivist = {
 		    popularity = 18
 		}
 		libertarian_socialist = {
-		    popularity = 42
+		    popularity = 37
 		}
 		social_democrat = {
-		    popularity = 10
+		    popularity = 22
 		}
 		social_liberal = {
-		    popularity = 2
+		    popularity = 3
 		}
 		market_liberal = {
-		    popularity = 0
+		    popularity = 1
 		}
 		social_conservative = {
 		    popularity = 0
@@ -80,7 +80,7 @@ set_politics = {
 		    popularity = 0
 		}
 		national_populist = {
-		    popularity = 0
+		    popularity = 5
 		}
 	}
 	
@@ -93,21 +93,12 @@ set_politics = {
 add_ideas = {
 }
 
-create_country_leader = {
-	name = "Paul Ramadier"
-	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
-	picture = "Portrait_France_Paul_Ramadier.dds"
-	expire = "1999.1.1"
-	ideology = internationalist_subtype
-	traits = {
-		
-	}
-}
+#LEADERS
 
 create_country_leader = {
-	name = "Paul Ramadier"
+	name = "Marcel Déat"
 	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
-	picture = "Portrait_France_Paul_Ramadier.dds"
+	picture = "Portrait_France_Marcel_Deat.tga"
 	expire = "1999.1.1"
 	ideology = vanguardist_subtype
 	traits = {
@@ -116,9 +107,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Paul Ramadier"
+	name = "Marcel Cachin"
 	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
-	picture = "Portrait_France_Paul_Ramadier.dds"
+	picture = "Portrait_France_Marcel_Cachin.tga"
 	expire = "1999.1.1"
 	ideology = collectivist_subtype
 	traits = {
@@ -127,15 +118,69 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Paul Ramadier"
+	name = "Jean Longuet"
 	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
-	picture = "Portrait_France_Paul_Ramadier.dds"
+	picture = "Portrait_France_Jean_Longuet.tga"
 	expire = "1999.1.1"
 	ideology = libertarian_socialist_subtype
 	traits = {
 		
 	}
 }
+
+create_country_leader = {
+	name = "Pierre Laval"
+	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
+	picture = "Portrait_France_Pierre_Laval.tga"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Pierre-Étienne Flandin"
+	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
+	picture = "Portrait_France_Pierre_Etienne_Flandin.tga"
+	expire = "1999.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Paul Reynaud"
+	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
+	picture = "Portrait_FRA_Paul_Reynaud.tga"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Léon Daudet"
+	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
+	picture = "Portrait_FRA_Leon_Daudet.tga"
+	expire = "1999.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		
+	}
+}
+
+#COMMANDERS
+
+
+
+
+
+
+
+
 
 create_corps_commander = {
 	name = "Jean de Lattre de Tassigny"

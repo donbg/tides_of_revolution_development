@@ -1,0 +1,23 @@
+
+state={
+	id=774
+	name="STATE_774"
+	manpower = 73560
+	
+	state_category = pastoral
+
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = BOL
+		add_claim_by = PAR
+	}
+
+	provinces={
+		12979 2160 12916 12902
+	}
+	
+}

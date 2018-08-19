@@ -1,6 +1,32 @@
 ﻿
 
 l_english:
+ # GOVERNMENT #
+ government:0 "Government"
+ mobilization_laws:0 "Mobilization Laws"
+ trade_laws:0 "Trade Laws"
+ economy:0 "Economy"
+ popularity:0 "Popularity"
+ cabinet:0 "Cabinet"
+ head_of_government:0 "Head of Government"
+ foreign_minister:0 "Foreign Minister"
+ economy_minister:0 "Economy Minister"
+ security_minister:0 "Security Minister"
+ head_of_intel:0 "Head of Intelligence
+ research_production:0 "Research Production"
+ weapons_manufacturer:0 "Weapons Manufacturer"
+ tank_manufacturer:0 "Tank Manufacturer"
+ tank_manufacturer:0 "Tank Manufacturer"
+ air_naval_manufacturer:0 "Air/Naval Manufacturer"
+ air_naval_manufacturer:0 "Air/Naval Manufacturer"
+ industrial_concern:0 "Industrial Concern"
+ military_staff:0 "Military Staff" 
+ chief_of_staff:0 "Chief of Staff"
+ chief_of_army:0 "Chief of Army"
+ chief_of_navy:0 "Chief of Navy"
+ chief_of_air_force:0 "Chief of Air Force"
+ theorist:0 "Theorist"
+ # RUSSIA #
  RUS_polarized_society:0 "Polarized society"
  RUS_polarized_society_desc:0 "Russian society is once again being divided and conflict between the two eternal enemies seems inevitable."
  RUS_socialist_violence:0 "Socialist violence"

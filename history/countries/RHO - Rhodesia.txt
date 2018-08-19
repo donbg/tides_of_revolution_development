@@ -52,9 +52,9 @@ set_politics = {
 set_convoys = 5
 
 create_country_leader = {
-	name = "Arthur Harris"
+	name = "Hubert Winthrop Young"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Rhodesia_Arthur_Harris.dds"
+	picture = "Portrait_Rhodesia_Hubert_Winthrop_Young.tga"
 	expire = "1999.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -62,3 +62,13 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Arthur Harris"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_Rhodesia_Arthur_Harris.dds"
+	expire = "1999.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}

@@ -13,13 +13,13 @@ state={
 	history={
 		owner = KUR
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
 		add_core_of = KUR
 		add_core_of = IRQ
 	}
 	
 	provinces={
-		10811 5014 3916 6826 8123 10793
+		10811 5014 3916
 	}
 }

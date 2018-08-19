@@ -42,19 +42,20 @@ puppet = KUB
 
 create_faction = russian_alliance
 add_to_faction = RUS
-add_to_faction = KAZ
-add_to_faction = KUB
 
 set_convoys = 50
 
 set_politics = {
 
 	parties = {
+		vanguardist = {
+		    popularity = 0
+		}
 		collectivist = {
-		    popularity = 9
+		    popularity = 2
 		}
 		libertarian_socialist = {
-		    popularity = 7
+		    popularity = 14
 		}
 		social_democrat = {
 		    popularity = 9
@@ -69,10 +70,10 @@ set_politics = {
 		    popularity = 3
 		}
 		authoritarian_democrat = {
-		    popularity = 2
+		    popularity = 19
 		}
 		paternal_autocrat = {
-		    popularity = 22
+		    popularity = 5
 		}
 		national_populist = {
 		    popularity = 41
@@ -88,15 +89,114 @@ set_politics = {
 add_ideas = {
 }
 
+#LEADERS
+
+create_country_leader = {
+	name = "Vasily Maklakov"
+	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	picture = "Portrait_Russia_Vasily_Maklakov.tga"
+	expire = "1999.3.1"
+	ideology = market_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Georgievsky Alexandrovich"
+	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	picture = "Portrait_Russia_Georgievsky_Alexandrovich.tga"
+	expire = "1999.3.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Aleksandr Kolchak"
+	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	picture = "Portrait_Russia_Alexandr_Kolchak.tga"
+	expire = "1999.3.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+	}
+}
+
 create_country_leader = {
 	name = "Viktor Baydalakov"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "Portrait_Russia_Viktor_Mikhailovich.dds"
+	picture = "Portrait_Russia_Viktor_Baydalakov.tga"
 	expire = "1999.3.1"
 	ideology = national_populist_subtype
 	traits = {
 	}
 }
+
+#FIELD MARSHALS
+
+create_field_marshal = {
+	name = "Pyotr Wrangel"
+	id = 400
+	picture = "Portrait_Russia_Pyotr_Wrangel.tga"
+	traits = {
+		war_hero
+		harsh_leader
+		cavalry_officer
+		inspirational_leader
+		offensive_doctrine
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+
+}
+
+create_field_marshal = {
+	name = "Lavr Kornilov"
+	id = 402
+	picture = "Portrait_Russia_Lavr_Kornilov.tga"
+	traits = {
+		offensive_doctrine
+		old_guard
+		media_personality
+		cavalry_officer
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+
+}
+
+#COMMANDERS
+
+#ADMIRALS
+
+create_navy_leader = {
+	name = "Aleksandr Kolchak"
+	id = 50001
+	portrait_path = "gfx/leaders/TRM/Portrait_Transamur_Alexandr_Kolchak.tga"
+	traits = {
+		superior_tactician
+	}
+	skill = 4
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 add_namespace = {
 	name = "unit_leader_sov"

@@ -73,34 +73,34 @@ set_politics = {
 
 	parties = {
 		vanguardist = { 
-			popularity = 2
+			popularity = 0
 		}
 		collectivist = {
 		    popularity = 3
 		}
 		libertarian_socialist = {
-		    popularity = 23
+		    popularity = 21
 		}
 		social_democrat = {
-		    popularity = 4
+		    popularity = 7
 		}
 		social_liberal = {
 		    popularity = 34
 		}
 		market_liberal = {
-		    popularity = 26
+		    popularity = 24
 		}
 		social_conservative = {
-		    popularity = 3
+		    popularity = 5
 		}
 		authoritarian_democrat = {
-		    popularity = 3
+		    popularity = 2
 		}
 		paternal_autocrat = {
 		    popularity = 0
 		}
 		national_populist = {
-		    popularity = 3
+		    popularity = 4
 		}
 	}
 	
@@ -110,10 +110,32 @@ set_politics = {
 	elections_allowed = no
 }
 
+#LEADERS
+
+create_country_leader = {
+	name = "Earl Browder"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_CSA_Earl_Bowder.tga"
+	expire = "1999.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Norman Thomas"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_USA_Norman_Thomas.tga"
+	expire = "1999.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+	}
+}
+
 create_country_leader = {
 	name = "William Edgar Borah"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Robert_La_Follette.tga"
+	picture = "Portrait_USA_William_Edgar_Borah.tga"
 	expire = "1999.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -131,9 +153,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Robert Taft"
+	name = "James Wadsworth"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Robert_taft.tga"
+	picture = "Portrait_USA_James_Wadsworth.tga"
 	expire = "1999.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -143,7 +165,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Bennett Champ Clark"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Al_Smith.tga"
+	picture = "Portrait_USA_Bennet_Champ_Clark.tga"
 	expire = "1999.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -153,44 +175,34 @@ create_country_leader = {
 create_country_leader = {
 	name = "Huey Long"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_bust_a_nut_for_huey.tga"
+	picture = "Portrait_USA_Huey_Long.tga"
 	expire = "1999.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
 create_country_leader = {
-	name = "William Dudley Pelley"
-	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
-	picture = "Portrait_USA_William_Dudley_Pelley.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
+	name = "George Marshall"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_USA_george_marshall.tga"
+	expire = "1999.1.1"
+	ideology = paternal_autocrat_subtype
 	traits = {
-		
 	}
 }
 
 create_country_leader = {
-	name = "Earl Browder"
-	desc = "POLITICS_EARL_BROWDER_DESC"
-	picture = "Portrait_USA_Generic_1.dds"
-	expire = "1965.1.1"
-	ideology = marxism
+	name = "Theodore Gilmore Bilbo"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_USA_Theodore_Gilmore.tga"
+	expire = "1999.1.1"
+	ideology = national_populist_subtype
 	traits = {
-		
 	}
 }
+
+#COMMANDERS
 
 create_corps_commander = {
 	name = "George S. Patton"

@@ -54,20 +54,22 @@ create_import = {
 		exporter = SWE
 }
 
+puppet = CUR
+
 set_politics = {
 
 	parties = {
 		vanguardist = { 
-			popularity = 0
+			popularity = 3
 		}
 		collectivist = {
 		    popularity = 0
 		}
 		libertarian_socialist = {
-		    popularity = 2
+		    popularity = 1
 		}
 		social_democrat = {
-		    popularity = 13
+		    popularity = 18
 		}
 		social_liberal = {
 		    popularity = 5
@@ -85,7 +87,7 @@ set_politics = {
 		    popularity = 37
 		}
 		national_populist = {
-		    popularity = 18
+		    popularity = 11
 		}
 	}
 	
@@ -100,8 +102,6 @@ create_faction = german_axis
 add_to_faction = GER
 add_to_faction = LIT
 add_to_faction = CUR
-add_to_faction = BLR
-
 
 add_ideas = {
 	sour_loser
@@ -112,9 +112,39 @@ add_ideas = {
 }
 
 create_country_leader = {
+	name = "Heinrich Laufenberg"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "Portrait_Kiel_Heinrich_Laufenberg.tga"
+	expire = "1999.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ernst Thälmann"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "Portrait_Germany_Ernst_Thalmann_I.tga"
+	expire = "1999.1.1"
+	ideology = collectivist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rosa Luxemburg"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "Portrait_Germany_Rosa_Luxemburg.tga"
+	expire = "1999.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
 	name = "Wilhelm II"
 	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_Germany_Wilhelm.dds"
+	picture = "Portrait_Germany_Wilhelm_II.tga"
 	expire = "1999.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -124,9 +154,19 @@ create_country_leader = {
 create_country_leader = {
 	name = "Wilhelm II"
 	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_Germany_Wilhelm.dds"
+	picture = "Portrait_Germany_Wilhelm_II.tga"
 	expire = "1999.1.1"
 	ideology = paternal_autocrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Wilhelm II"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "Portrait_Germany_Wilhelm_II.tga"
+	expire = "1999.1.1"
+	ideology = national_populist_subtype
 	traits = {
 	}
 }

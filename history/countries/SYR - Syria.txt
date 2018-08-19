@@ -15,31 +15,31 @@ set_politics = {
 			popularity = 0
 		}
 		collectivist = {
-		    popularity = 0
+		    popularity = 3
 		}
 		libertarian_socialist = {
-		    popularity = 0
+		    popularity = 1
 		}
 		social_democrat = {
-		    popularity = 0
+		    popularity = 7
 		}
 		social_liberal = {
-		    popularity = 100
+		    popularity = 36
 		}
 		market_liberal = {
-		    popularity = 0
+		    popularity = 5
 		}
 		social_conservative = {
-		    popularity = 0
+		    popularity = 21
 		}
 		authoritarian_democrat = {
-		    popularity = 0
+		    popularity = 18
 		}
 		paternal_autocrat = {
-		    popularity = 0
+		    popularity = 3
 		}
 		national_populist = {
-		    popularity = 0
+		    popularity = 6
 		}
 	}
 	
@@ -47,6 +47,16 @@ set_politics = {
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Shukri al-Quwatli"
+	desc = ""
+	picture = "Portrait_SYR_Shukri.tga"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
@@ -60,30 +70,30 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Antun Saadeh"
+	name = "Émile Eddé"
 	desc = ""
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_land_3.dds"
-	ideology = revolutionary_nationalist_subtype
+	picture = "Portrait_SYR_Emile_Edde.tga"
+	ideology = market_liberal_subtype
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Ghazi bin Faisal"
+	name = "Michel Aflaq"
 	desc = ""
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_2.dds"
-	ideology = despotism
+	picture = "Portrait_SYR_Aflaq.tga"
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Khalid Bakdash"
+	name = "Antoun Saadeh"
 	desc = ""
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_1.dds"
-	ideology = leninism
+	picture = "Portrait_SYR_Antoun_Sadeh.tga"
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}

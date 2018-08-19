@@ -1,0 +1,63 @@
+﻿capital = 450
+
+OOB = "LBA_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_politics = {
+
+	parties = {
+		vanguardist = { 
+			popularity = 0
+		}
+		collectivist = {
+		    popularity = 0
+		}
+		libertarian_socialist = {
+		    popularity = 0
+		}
+		social_democrat = {
+		    popularity = 0
+		}
+		social_liberal = {
+		    popularity = 0
+		}
+		market_liberal = {
+		    popularity = 0
+		}
+		social_conservative = {
+		    popularity = 0
+		}
+		authoritarian_democrat = {
+		    popularity = 0
+		}
+		paternal_autocrat = {
+		    popularity = 100
+		}
+		national_populist = {
+		    popularity = 0
+		}
+	}
+	
+	ruling_party = paternal_autocrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 5
+
+create_country_leader = {
+	name = "Ahmed Sharif as-Senussi"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_LBA_Ahmed_Sharif.tga"
+	expire = "1999.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}

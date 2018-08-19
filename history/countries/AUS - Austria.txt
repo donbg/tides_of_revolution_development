@@ -14,8 +14,6 @@ set_technology = {
 	early_fighter = 1
 }
 
-puppet = HUN
-
 set_politics = {
 
 	parties = {

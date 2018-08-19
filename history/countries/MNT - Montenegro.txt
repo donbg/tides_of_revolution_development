@@ -62,9 +62,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "George I"
+	name = "Danilo I"
 	desc = ""
-	picture = "George_I.dds"
+	picture = "Portrait_MNT_Danilo.tga"
 	expire = "1953.3.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {

@@ -45,7 +45,7 @@ set_politics = {
 		    popularity = 3
 		}
 		social_conservative = {
-		    popularity = 15
+		    popularity = 5
 		}
 		authoritarian_democrat = {
 		    popularity = 6

@@ -1,6 +1,6 @@
 bookmarks = {
 	bookmark = {
-		name = "TIDES_OF_REVOLUTION_NAME"
+		name = "Tides of Revolution"
 		desc = "TIDES_OF_REVOLUTION_DESC"
 		date = 1936.1.1.1
 		picture = "GFX_select_date_1936"
@@ -8,8 +8,8 @@ bookmarks = {
 		default = yes
 
 		"FRA"={
-			history = "USA_FUHRERREICH_DESC"
-			ideology = market_liberal
+			history = "FRA_TIDES_OF_REVOLUTION_DESC"
+			ideology = libertarian_socialist
 			ideas = {
 				USA_failed_offensive
 				USA_great_depression
@@ -24,8 +24,8 @@ bookmarks = {
 
 
 		"ENG"={
-			history = "SOV_TIDES_OF_REVOLUTION_DESC"
-			ideology = libertarian_socialist
+			history = "ENG_TIDES_OF_REVOLUTION_DESC"
+			ideology = social_liberal
 			ideas = {
 				SOV_Bread
 				SOV_Peace
@@ -37,8 +37,8 @@ bookmarks = {
 		}
 
 		"AUS"={
-			history = "GER_TIDES_OF_REVOLUTION_DESC"
-			ideology = valkist
+			history = "AUS_TIDES_OF_REVOLUTION_DESC"
+			ideology = social_democrat
 			ideas = {
 				GER_nation_reborn
 				GER_naval_treaty
@@ -52,8 +52,8 @@ bookmarks = {
 		}
 
 		"USA"={
-			history = "FRA_TIDES_OF_REVOLUTION_DESC"
-			ideology = social_conservative
+			history = "USA_TIDES_OF_REVOLUTION_DESC"
+			ideology = social_liberal
 			ideas = {
 				FRA_great_war_victors
 				FRA_our_place_in_the_sun
@@ -68,7 +68,7 @@ bookmarks = {
 
 		"ITA"={
 			history = "ITA_TIDES_OF_REVOLUTION_DESC"
-			ideology = market_liberal
+			ideology = social_democrat
 			ideas = {
 				ITA_italia_irredenta
 				ITA_communist_threat
@@ -82,8 +82,8 @@ bookmarks = {
 		}
 
 		"GER"={
-			history = "ENG_TIDES_OF_REVOLUTION_DESC"
-			ideology = social_conservative
+			history = "GER_TIDES_OF_REVOLUTION_DESC"
+			ideology = paternal_autocrat
 			ideas = {
 				ENG_col_unrest
 				ENG_irb
@@ -96,8 +96,8 @@ bookmarks = {
 			}
 		}
 		"RUS"={
-			history = "JAP_TIDES_OF_REVOLUTION_DESC"
-			ideology = market_liberal
+			history = "RUS_TIDES_OF_REVOLUTION_DESC"
+			ideology = national_populist
 			ideas = {
 				JAP_cultural_upheaval
 				JAP_Romanov_exiles

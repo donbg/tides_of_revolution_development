@@ -52,9 +52,9 @@ set_politics = {
 set_convoys = 5
 
 create_country_leader = {
-	name = "Kitchener"
+	name = "Orde Wingate"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Albania_Amadeo_Savoia_Aosta.dds"
+	picture = "Portrait_Sudan_Orde_Wingate.tga"
 	expire = "1999.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
