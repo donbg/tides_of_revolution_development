@@ -60,6 +60,10 @@ give_guarantee = PAR
 give_guarantee = ARG
 give_guarantee = URG
 
+#SUBJECTS
+
+puppet = PHI
+
 set_convoys = 400
 
 add_ideas = {
@@ -85,10 +89,10 @@ set_politics = {
 		    popularity = 7
 		}
 		social_liberal = {
-		    popularity = 34
+		    popularity = 28
 		}
 		market_liberal = {
-		    popularity = 24
+		    popularity = 34
 		}
 		social_conservative = {
 		    popularity = 5
@@ -100,11 +104,11 @@ set_politics = {
 		    popularity = 0
 		}
 		national_populist = {
-		    popularity = 4
+		    popularity = 0
 		}
 	}
 	
-	ruling_party = social_liberal
+	ruling_party = market_liberal
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -137,7 +141,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_William_Edgar_Borah.tga"
 	expire = "1999.1.1"
-	ideology = social_democrat_subtype
+	ideology = social_liberal_subtype
 	traits = {
 	}
 }
@@ -146,16 +150,6 @@ create_country_leader = {
 	name = "Alfred Smith"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Al_Smith.tga"
-	expire = "1999.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "James Wadsworth"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_James_Wadsworth.tga"
 	expire = "1999.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -185,7 +179,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "George Marshall"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_george_marshall.tga"
+	picture = "Portrait_USA_General_George_Marshall.tga"
 	expire = "1999.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {

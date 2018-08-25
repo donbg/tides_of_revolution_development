@@ -394,8 +394,8 @@ LAO = {
 }
 
 INS = {
-	color = rgb { 128  158  118 }
-	color_ui = rgb { 128  158  118 }
+	color = rgb { 153 84 52 }
+	color_ui = rgb { 255 179 96 }
 }
 
 VIN = {
@@ -623,4 +623,12 @@ CUR = {
 TUN = {
 	color = rgb { 47 100 63 }
 	color_ui = rgb { 87 165 82 }
+}
+TON = {
+	color = rgb { 51 153 255 }
+	color_ui = rgb { 51 153 255 }
+}
+CCH = {
+	color = rgb { 1 44 123 }
+	color_ui = rgb { 1 44 123 }
 }

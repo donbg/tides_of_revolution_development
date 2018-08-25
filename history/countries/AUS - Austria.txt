@@ -61,6 +61,17 @@ create_faction = austrian_faction
 add_to_faction = AUS
 
 create_country_leader = {
+	name = "Otto Bauer"
+	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
+	picture = "AUS_Portrait_Otto_Bauer.tga"
+	expire = "1999.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Franz II"
 	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
 	picture = "Portrait_Austria_Franz_Ferdinand.tga"

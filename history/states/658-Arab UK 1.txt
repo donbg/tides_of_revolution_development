@@ -9,7 +9,6 @@ state={
 	
 	state_category = pastoral
 
-
 	history={
 		owner = RAJ
 		victory_points = {
@@ -28,6 +27,6 @@ state={
 	}
 
 	provinces={
-		2048 7960 8051 8108 10904 
+		2048 7960 8051 8108 10904 4932
 	}
 }
