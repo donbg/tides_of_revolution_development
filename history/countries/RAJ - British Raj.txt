@@ -64,6 +64,50 @@ set_politics = {
 #LEADERS
 
 create_country_leader = {
+	name = "Subhas Chandra Bose"
+	desc = "POLITICS_LORD_LINLITHGOW_DESC"
+	picture = "Portrait_India_Chandra_Bose.tga"
+	expire = "1999.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Manabendra Nath Roy"
+	desc = "POLITICS_LORD_LINLITHGOW_DESC"
+	picture = "Portrait_India_M_N_Roy.tga"
+	expire = "1999.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Shripad Amrit Dange"
+	desc = "POLITICS_LORD_LINLITHGOW_DESC"
+	picture = "Portrait_India_Shripad_Amrit_Dange.tga"
+	expire = "1999.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ganga Singh"
+	desc = "POLITICS_LORD_LINLITHGOW_DESC"
+	picture = "Portrait_India_Sir_Ganga_Singh.tga"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
 	name = "Ganga Singh"
 	desc = "POLITICS_LORD_LINLITHGOW_DESC"
 	picture = "Portrait_India_Sir_Ganga_Singh.tga"
@@ -74,7 +118,128 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Ganga Singh"
+	desc = "POLITICS_LORD_LINLITHGOW_DESC"
+	picture = "Portrait_India_Sir_Ganga_Singh.tga"
+	expire = "1999.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ganga Singh"
+	desc = "POLITICS_LORD_LINLITHGOW_DESC"
+	picture = "Portrait_India_Sir_Ganga_Singh.tga"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ganga Singh"
+	desc = "POLITICS_LORD_LINLITHGOW_DESC"
+	picture = "Portrait_India_Sir_Ganga_Singh.tga"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ganga Singh"
+	desc = "POLITICS_LORD_LINLITHGOW_DESC"
+	picture = "Portrait_India_Sir_Ganga_Singh.tga"
+	expire = "1999.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Vinayak Damodar Savarkar"
+	desc = "POLITICS_LORD_LINLITHGOW_DESC"
+	picture = "Portrait_India_Savarkar.tga"
+	expire = "1999.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		
+	}
+}
+
+#FIELD MARSHALS
+
+create_field_marshal = {
+	name = "Archibald Percival Wavell"
+	picture = "Portrait_India_Archibald_Percival_Wavell.tga"
+	traits = { old_guard defensive_doctrine trait_cautious }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Ganga Singh"
+	picture = "Portrait_India_Sir_Ganga_Singh.tga"
+	traits = { cavalry_officer war_hero inspirational_leader }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
 #COMMANDERS
+
+create_corps_commander = {
+	name = "David Tennant Cowan"
+	picture = "Portrait_India_David_Tennant_Cowan.tga"
+	traits = { jungle_rat }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Thomas Edward Lawrence"
+	picture = "Portrait_India_T_E_Lawrence.tga"
+	traits = { trickster war_hero guerilla_fighter desert_fox }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 create_corps_commander = {
 	name = "Noel Beresford-Peirse"

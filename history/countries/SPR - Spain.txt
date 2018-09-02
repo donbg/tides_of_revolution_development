@@ -32,7 +32,7 @@ set_politics = {
 			popularity = 5
 		}
 		collectivist = {
-		    popularity = 16
+		    popularity = 32
 		}
 		libertarian_socialist = {
 		    popularity = 11
@@ -41,7 +41,7 @@ set_politics = {
 		    popularity = 17
 		}
 		social_liberal = {
-		    popularity = 32
+		    popularity = 16
 		}
 		market_liberal = {
 		    popularity = 11
@@ -60,7 +60,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_liberal
+	ruling_party = collectivist
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
@@ -98,7 +98,7 @@ create_country_leader = {
 	desc = "POLITICS_MANUEL_AZANA_DESC"
 	picture = "Portrait_Spain_Manuel_Azana_Diaz.tga"
 	expire = "1999.1.1"
-	ideology = social_democrat_subtype
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}
@@ -109,7 +109,7 @@ create_country_leader = {
 	desc = "POLITICS_MANUEL_AZANA_DESC"
 	picture = "Portrait_Spain_Alejandro_Lerroux_Garcia.tga"
 	expire = "1999.1.1"
-	ideology = social_liberal_subtype
+	ideology = market_liberal_subtype
 	traits = {
 		#
 	}

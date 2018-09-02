@@ -621,14 +621,10 @@ CUR = {
 	color_ui = rgb { 99 137 153 }
 }
 TUN = {
-	color = rgb { 47 100 63 }
-	color_ui = rgb { 87 165 82 }
+	color = rgb { 146 134 57 }
+	color_ui = rgb { 146 134 57 }
 }
-TON = {
-	color = rgb { 1 103 205 }
-	color_ui = rgb { 1 103 205 }
-}
-CCH = {
-	color = rgb { 1 44 123 }
-	color_ui = rgb { 1 44 123 }
+ANH = {
+	color = rgb { 94 94 92 }
+	color_ui = rgb { 94 94 92 }
 }

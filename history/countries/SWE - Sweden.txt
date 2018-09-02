@@ -40,25 +40,25 @@ set_politics = {
 			popularity = 0
 		}
 		collectivist = {
-		    popularity = 10
+		    popularity = 3
 		}
 		libertarian_socialist = {
-		    popularity = 3
+		    popularity = 7
 		}
 		social_democrat = {
-		    popularity = 27
+		    popularity = 29
 		}
 		social_liberal = {
-		    popularity = 6
+		    popularity = 8
 		}
 		market_liberal = {
-		    popularity = 19
+		    popularity = 17
 		}
 		social_conservative = {
-		    popularity = 28
+		    popularity = 31
 		}
 		authoritarian_democrat = {
-		    popularity = 3
+		    popularity = 1
 		}
 		paternal_autocrat = {
 		    popularity = 1

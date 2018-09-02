@@ -34,20 +34,30 @@ set_politics = {
 		    popularity = 4
 		}
 		authoritarian_democrat = {
-		    popularity = 19
+		    popularity = 44
 		}
 		paternal_autocrat = {
-		    popularity = 44
+		    popularity = 19
 		}
 		national_populist = {
 		    popularity = 23
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Zhang Zuolin"
+	picture = "Portrait_FNG_Zhang_Zuolin.tga"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
