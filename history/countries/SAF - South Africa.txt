@@ -41,19 +41,19 @@ set_politics = {
 		    popularity = 2
 		}
 		social_democrat = {
-		    popularity = 8
+		    popularity = 16
 		}
 		social_liberal = {
-		    popularity = 3
+		    popularity = 2
 		}
 		market_liberal = {
-		    popularity = 11
+		    popularity = 6
 		}
 		social_conservative = {
-		    popularity = 21
+		    popularity = 24
 		}
 		authoritarian_democrat = {
-		    popularity = 42
+		    popularity = 37
 		}
 		paternal_autocrat = {
 		    popularity = 3
@@ -77,6 +77,50 @@ create_country_leader = {
 	picture = "Moses_Kotane_I.tga"
 	expire = "1999.1.1"
 	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jan Christian Smuts"
+	desc = "POLITICS_J_B_M_HERTZOG_DESC"
+	picture = "Portrait_SAF_Jan_Smuts.tga"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jan Christian Smuts"
+	desc = "POLITICS_J_B_M_HERTZOG_DESC"
+	picture = "Portrait_SAF_Jan_Smuts.tga"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jan Christian Smuts"
+	desc = "POLITICS_J_B_M_HERTZOG_DESC"
+	picture = "Portrait_SAF_Jan_Smuts.tga"
+	expire = "1999.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jan Christian Smuts"
+	desc = "POLITICS_J_B_M_HERTZOG_DESC"
+	picture = "Portrait_SAF_Jan_Smuts.tga"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}

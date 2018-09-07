@@ -73,6 +73,39 @@ create_country_leader = {
 	desc = "POLITICS_IOANNIS_METAXAS_DESC"
 	picture = "Portrait_GRE_George.tga"
 	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Giórgios II"
+	desc = "POLITICS_IOANNIS_METAXAS_DESC"
+	picture = "Portrait_GRE_George.tga"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Giórgios II"
+	desc = "POLITICS_IOANNIS_METAXAS_DESC"
+	picture = "Portrait_GRE_George.tga"
+	expire = "1999.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Giórgios II"
+	desc = "POLITICS_IOANNIS_METAXAS_DESC"
+	picture = "Portrait_GRE_George.tga"
+	expire = "1999.1.1"
 	ideology = social_conservative_subtype
 	traits = {
 		#

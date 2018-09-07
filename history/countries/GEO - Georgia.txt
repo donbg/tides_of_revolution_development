@@ -47,10 +47,10 @@ set_politics = {
 		    popularity = 0
 		}
 		libertarian_socialist = {
-		    popularity = 0
+		    popularity = 100
 		}
 		social_democrat = {
-		    popularity = 100
+		    popularity = 0
 		}
 		social_liberal = {
 		    popularity = 0
@@ -72,18 +72,29 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_democrat
+	ruling_party = libertarian_socialist
 	last_election = "1935.10.27"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Noe Zhordania"
+	name = "Noe Ramishvili"
 	desc = ""
-	picture = "Portrait_Noe_Zhordania.tga"
-	expire = "1953.3.1"
-	ideology = social_democrat_subtype
+	picture = "Portrait_GEO_Noe_Ramishvili.tga"
+	expire = "1999.3.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Giorgi Bagration-Mukhraneli"
+	desc = ""
+	picture = "Portrait_GEO_Giorgi_Bagration_Mukhraneli.tga"
+	expire = "1999.3.1"
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		
 	}

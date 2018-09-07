@@ -30,8 +30,8 @@ BEL = { color 	 = rgb { 167 150 82 }
 HOL = {	color = rgb { 153 84 52 }
 		color_ui = rgb { 255 179 96 }
 }
-CZE = {	color = rgb { 54 167 156 }
-		color_ui = rgb { 70 217 203 }
+CZE = {	color = rgb { 53 137 155 }
+		color_ui = rgb { 146 80 140 }
 }
 POL = {
 	color = rgb { 184 77 102 }
@@ -601,8 +601,8 @@ SUD = {
 	color_ui = rgb { 160 15 15 }
 }
 TRK = {
-	color = rgb { 100 150 105 }
-	color_ui = rgb { 100 150 105 }
+	color = rgb { 84 210 0 }
+	color_ui = rgb { 84 210 0 }
 }
 KAZ = {
 	color = rgb { 0 77 103 }

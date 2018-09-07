@@ -38,8 +38,6 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-puppet = KUB
-
 create_faction = russian_alliance
 add_to_faction = RUS
 
@@ -52,31 +50,31 @@ set_politics = {
 		    popularity = 0
 		}
 		collectivist = {
-		    popularity = 2
+		    popularity = 3
 		}
 		libertarian_socialist = {
-		    popularity = 14
+		    popularity = 6
 		}
 		social_democrat = {
-		    popularity = 9
+		    popularity = 16
 		}
 		social_liberal = {
-		    popularity = 5
+		    popularity = 12
 		}
 		market_liberal = {
 		    popularity = 2
 		}
 		social_conservative = {
-		    popularity = 3
+		    popularity = 7
 		}
 		authoritarian_democrat = {
-		    popularity = 19
+		    popularity = 13
 		}
 		paternal_autocrat = {
 		    popularity = 5
 		}
 		national_populist = {
-		    popularity = 41
+		    popularity = 36
 		}
 	}
 	
@@ -90,6 +88,36 @@ add_ideas = {
 }
 
 #LEADERS
+
+create_country_leader = {
+	name = "Mikhail Tukhachevsky"
+	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	picture = "Portrait_Russia_Mikhail_Tukhachevsky.tga"
+	expire = "1999.3.1"
+	ideology = vanguardist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mikhail Kalinin"
+	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	picture = "Portrait_Russia_Mikhail_Kalinin.tga"
+	expire = "1999.3.1"
+	ideology = collectivist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Kerensky"
+	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	picture = "Portrait_Russia_Alexander_Kerensky.tga"
+	expire = "1999.3.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
 
 create_country_leader = {
 	name = "Vasily Maklakov"
